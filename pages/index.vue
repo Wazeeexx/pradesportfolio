@@ -4,9 +4,9 @@
         <header class="bg-gray-800 text-white py-6 flex justify-left">
           <nav class="navbar fixed top-0 w-full bg-gray-800 h-16 md:h-20">
             <div class="container mx-auto flex justify-between items-center">
-                <h1 class="text-xl sm:text-2xl font-bold text-center w-full sm:w-auto py-2 px-4 sm:px-0 mt-4" style="font-family: 'Poppins';">
+                <!-- <h1 class="text-xl sm:text-2xl font-bold text-center w-full sm:w-auto py-2 px-4 sm:px-0 mt-4" style="font-family: 'Poppins';">
                   Dave Prades
-                </h1>
+                </h1> -->
     
               <nav class="hidden md:flex space-x-10 font-medium font-poppins">
                 <a href="#" class="text-white hover:text-blue-300 pt-6 ml-4">Home</a>
