@@ -1,0 +1,109 @@
+.instagram-icon{
+    content: url('../assets/svg-icon/instagram.svg');
+}
+.font-poppins {
+    font-family: 'Poppins';
+  }
+  
+  .animated-heading {
+    animation-name: slide-in;
+    animation-duration: 3s;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .dave-icon{
+    content: url('../assets/Dave2x2.png');  
+  }
+  
+  .bg-icon{
+    content: url('../assets/bg.jpg');  
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .resume-icon{
+    content: url('../assets/resume.png');
+  }
+
+  .roadsign-icon{
+    content: url('../assets/roadsign.png');
+  }
+
+  .atm-icon{
+    content: url('../assets/atm.png');
+  }
+  
+  .coding-icon{
+    content: url('../assets/coding.png');
+
+  }
+.road-icon{
+  content: url('../assets/road.png');
+}
+.dm-icon{
+  content: url('../assets/dm.png');
+}
+
+.background{
+  content: url('../assets/background.png');
+}
+
+.vuejs-icon{
+  content: url('../assets/svg-icon/vuejs.svg');
+}
+
+@keyframes fade-right {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animated-fade-right {
+  animation: fade-right 2.5s infinite;
+}
+
+.anime-icon{
+  content: url('../assets/anime.png');
+}
+
+/* Add this CSS to your custom CSS file or inline in your HTML */
+.night-mode-toggle label {
+  cursor: pointer;
+  display: block;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+  position: relative;
+}
+
+.gmail-icon{
+  content: url('../assets/svg-icon/gmail.svg');
+}
+
+@media (max-width: 640px) {
+  /* Two columns in mobile view */
+  .sm\\:grid-cols-2 > * {
+    grid-column: span 2;
+  }
+}
+
+.project-bg{
+  content: url('../assets/picture/prbg.png');
+}
