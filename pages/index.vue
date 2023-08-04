@@ -60,7 +60,8 @@
                       <h3 class="text-xl md:text-4xl font-bold text-gray-800" style="font-family: 'Poppins';">Transforming Ideas Into <br class="md:hidden"> Functional Websites.</h3>
                     </div>
                     <div>
-                      <h1 class="text-lg md:text-3xl font-bold text-blue-600 font-semibold font-poppins" ref="typewriter" style="font-family: 'Poppins';">Front-End Developer</h1>
+                      <h1 class="text-lg md:text-3xl font-bold text-blue-600 font-semibold font-poppins" ref="typewriter"><span class="cursor"></span></h1>
+
                     </div>
                   </div>
                 </div>
@@ -124,8 +125,7 @@
             <div id="about" class="grid grid-cols mt-24">
               <h2 class="text-3xl font-bold font-poppins text-center mb-4" style="font-family: 'Poppins';">About Me</h2>
               <div class="flex justify-center">
-                <p class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center" style="font-family: 'Poppins';">
-                  Hi There! I'm Dave M. Prades, A Front-End Developer
+                <p class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center" style="font-family: 'Poppins';" ref="typewriter"><span class="cursor"></span>
                 </p>
               </div>
           
@@ -358,7 +358,87 @@
     <script>
     
     export default{
-      
+      //Type writer Effect in Front End Developer
+      mounted() {
+        const typewriterText = "Front-End Developer ";
+        const typewriterDelay = 150; // Adjust the typing speed here
+        const loopDelay = 200; // Delay before starting the typewriter loop
+
+        function typeWriter(element, text, delay) {
+          let i = 0;
+          function type() {
+            if (i < text.length) {
+              element.innerHTML += text.charAt(i);
+              i++;
+              setTimeout(type, delay);
+            } else {
+              setTimeout(() => {
+                removeText(element, text, delay);
+              }, loopDelay);
+            }
+          }
+          type();
+        }
+
+        function removeText(element, text, delay) {
+          let i = text.length;
+          function remove() {
+            if (i >= 0) {
+              element.innerHTML = text.substring(0, i);
+              i--;
+              setTimeout(remove, delay);
+            } else {
+              typeWriter(element, typewriterText, delay);
+            }
+          }
+          remove();
+        }
+
+        const typewriterElement = this.$refs.typewriter;
+        typeWriter(typewriterElement, typewriterText, typewriterDelay);
+      },
+
+      mounted() {
+        const typewriterText = "Hi There! I'm Dave M. Prades, A Front-End Developer";
+        const typewriterDelay = 100; // Adjust the typing speed here
+        const loopDelay = 200; // Delay before starting the typewriter loop
+
+        function typeWriter(element, text, delay) {
+          let i = 0;
+          function type() {
+            if (i < text.length) {
+              element.innerHTML += text.charAt(i);
+              i++;
+              setTimeout(type, delay);
+            } else {
+              setTimeout(() => {
+                removeText(element, text, delay);
+              }, loopDelay);
+            }
+          }
+          type();
+        }
+
+        function removeText(element, text, delay) {
+          let i = text.length;
+          function remove() {
+            if (i >= 0) {
+              element.innerHTML = text.substring(0, i);
+              i--;
+              setTimeout(remove, delay);
+            } else {
+              typeWriter(element, typewriterText, delay);
+            }
+          }
+          remove();
+        }
+
+        const typewriterElement = this.$refs.typewriter;
+        typeWriter(typewriterElement, typewriterText, typewriterDelay);
+      },
+
+
+      //burger icon
       data() {
         return {
           showNavigation: false,
@@ -370,6 +450,7 @@
         },
       },
     
+      //scroll down and up
       methods: {
         scrollToElement(elementId) {
           const element = document.getElementById(elementId);
@@ -377,6 +458,7 @@
         },
       },
       
+      // message in contact me
       data() {
         return {
           name: "",
@@ -401,33 +483,7 @@
     
     
     
-      mounted() {
-        this.typewriterEffect();
-      },
-      methods: {
-        typewriterEffect() {
-          const element = this.$refs.typewriter;
-          const text = element.innerText;
-          element.innerText = '';
     
-          let i = 0;
-          const speed = 200; 
-    
-          const type = () => {
-            if (i < text.length) {
-              element.innerText += text.charAt(i);
-              i++;
-              setTimeout(type, speed);
-            } else {
-              element.innerText = '';
-              i = 0;
-              setTimeout(type, speed);
-            }
-          };
-    
-          type();
-        }
-      },
     };
     
     </script>
@@ -560,6 +616,22 @@
           margin: 0.5rem 0;
         }
       }
+
+      /* Add the cursor animation here */
+      /* @keyframes blink {
+        0% { opacity: 0; }
+        50% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+      .cursor {
+        display: inline-block;
+        width: 1px;
+        height: 1.2em;
+        background-color: black;
+        animation: blink 1s infinite;
+      } */
+
     </style>
     
                    
