@@ -125,7 +125,8 @@
             <div id="about" class="grid grid-cols mt-24">
               <h2 class="text-3xl font-bold font-poppins text-center mb-4" style="font-family: 'Poppins';">About Me</h2>
               <div class="flex justify-center">
-                <p class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center" style="font-family: 'Poppins';" ref="typewriter"><span class="cursor"></span>
+                <p class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center" style="font-family: 'Poppins';">
+                  Hi There! I'm Dave M. Prades, A Front-End Developer
                 </p>
               </div>
           
@@ -398,46 +399,6 @@
         typeWriter(typewriterElement, typewriterText, typewriterDelay);
       },
 
-      mounted() {
-        const typewriterText = "Hi There! I'm Dave M. Prades, A Front-End Developer";
-        const typewriterDelay = 100; // Adjust the typing speed here
-        const loopDelay = 200; // Delay before starting the typewriter loop
-
-        function typeWriter(element, text, delay) {
-          let i = 0;
-          function type() {
-            if (i < text.length) {
-              element.innerHTML += text.charAt(i);
-              i++;
-              setTimeout(type, delay);
-            } else {
-              setTimeout(() => {
-                removeText(element, text, delay);
-              }, loopDelay);
-            }
-          }
-          type();
-        }
-
-        function removeText(element, text, delay) {
-          let i = text.length;
-          function remove() {
-            if (i >= 0) {
-              element.innerHTML = text.substring(0, i);
-              i--;
-              setTimeout(remove, delay);
-            } else {
-              typeWriter(element, typewriterText, delay);
-            }
-          }
-          remove();
-        }
-
-        const typewriterElement = this.$refs.typewriter;
-        typeWriter(typewriterElement, typewriterText, typewriterDelay);
-      },
-
-
       //burger icon
       data() {
         return {
@@ -458,7 +419,7 @@
         },
       },
       
-      // message in contact me
+      // message in contact
       data() {
         return {
           name: "",
