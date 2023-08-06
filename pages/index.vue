@@ -6,16 +6,14 @@
             <div class="container mx-auto flex justify-between items-center">
                 <h1 class="text-xl sm:text-2xl font-bold text-center w-full sm:w-auto py-2 px-4 sm:px-0 mt-4" style="font-family: 'Poppins';">
                   Dave Prades
-                </h1>
-    
+                </h1>   
               <nav class="hidden md:flex space-x-10 font-medium font-poppins">
                 <a href="#" class="text-white hover:text-blue-300 pt-6 ml-4">Home</a>
                 <a href="#about" class="text-white hover:text-blue-300 pt-6">About</a>
                 <a href="#skills" class="text-white hover:text-blue-300 pt-6">Skills</a>
                 <a href="#projects" class="text-w hite hover:text-blue-300 pt-6">Projects</a>
                 <a href="#contact" class="text-white hover:text-blue-300 pt-6">Contact</a>
-              </nav>
-    
+              </nav>    
             </div>
               <div v-if="showNavigation" class="md:hidden bg-blue-600 p-4 space-y-4 font-medium font-poppins fixed top-0 left-0 w-full z-40 transform translate-y-0 transition-transform duration-300">
                 <a href="#" class="block text-white">Home</a>
@@ -302,30 +300,32 @@
                 <p class="flex justify-center" style="font-family: 'Poppins';">let's get connected:</p>
                 <h2 class="text-4xl font-bold text-center mt-12 text-gray-600 sm:flex sm:justify-center" style="font-family: 'Poppins';">
                   Do you have any project ideas?<br> Feel free to get in touch!</h2>
-                    <div class="container mx-auto px-4 py-8">
-                      <div class="flex justify-center">
-                        <form @submit.prevent="submitForm">
-                            <div class="mb-4">
-                              <label for="name" class="block font-bold mb-2 mt-4"></label>
-                              <input type="text" id="name" v-model="name" class="w-min px-10 py-2 rounded-lg border border-gray-400 bg-gray-100 focus:outline-none focus:ring focus:border-blue-300" placeholder="Yourname:"/>
-                            </div>
-                            <div class="mb-4">
-                              <label for="email" class="block font-bold mb-2"></label>
-                              <input type="email" id="email" v-model="email" class="w-min px-10 py-2 rounded-lg border border-gray-400 bg-gray-100 focus:outline-none focus:ring focus:border-blue-300" placeholder="Email:" required/>
-                            </div>
-                            <div class="mb-4">
-                              <label for="message" class="block font-bold mb-2"></label>
-                              <textarea id="message" v-model="message" rows="4" class="w-min px-12 py-2 rounded-lg border border-gray-400 bg-gray-100 focus:outline-none focus:ring focus:border-blue-300" placeholder="Message:" required></textarea>
-                            </div>
-                            <div class="flex justify-center items-center md:justify-start md:mx-auto mb-4 px-24">
-                              <button type="submit" class="hover-red bg-black text-white px-4 py-2 rounded-lg" style="font-family: 'Poppins';">
-                                Submit
-                              </button>
-                            </div>
-    
-                        </form>
-                      </div>
-                      <div class="flex justify-center mb-2 gap-6 mt-4">
+                  <div class="flex justify-center items-center">
+                    <img class="mt-12 mr-18 h-44 w-48 rounded-full mb-8 shadow-md" src="@/assets/picture/dave.png" alt="">
+                    <div class="contact-info-container">
+                      <a class="flex items-center" style="font-family: 'Poppins';">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mx-2">
+                          <path fill="black" d="m18.73 5.41l-1.28 1L12 10.46L6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"/>
+                        </svg>: daveprades80@gmail.com
+                      </a>
+
+                      <a class="flex items-center mt-4 mr-4" style="font-family: 'Poppins';">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mx-2">
+                          <path fill="currentColor" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Z"/>
+                        </svg>: Zone, 7. San Vicente <br>Ogbon, Nabua, Camarines Sur
+                      </a>
+
+                      <a class="flex items-center mt-4 mr-28" style="font-family: 'Poppins';">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mx-2">
+                          <path fill="currentColor" d="M6 17c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1H6m9-9a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3a3 3 0 0 1 3 3M3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2Z"/>
+                        </svg>: 09305126647
+                      </a>
+                    </div>
+                  </div>
+
+
+
+                      <!-- <div class="flex justify-center mb-2 gap-6 mt-4">
                         <a class="flex items-center" style="font-family: 'Poppins';">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mx-2">
                             <path fill="black" d="m18.73 5.41l-1.28 1L12 10.46L6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"/>
@@ -343,8 +343,8 @@
                             <path fill="currentColor" d="M6 17c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1H6m9-9a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3a3 3 0 0 1 3 3M3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2Z"/>
                           </svg>: 09305126647
                         </a>
-                      </div>
-                    </div>
+                      </div> -->
+                   
               </section>
           </div>
         </main>
@@ -578,6 +578,21 @@
         }
       }
 
+      /* Mobile view */
+    @media (max-width: 767px) {
+      .contact-info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .contact-info-container a {
+        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+
       /* Add the cursor animation here */
       /* @keyframes blink {
         0% { opacity: 0; }
@@ -596,4 +611,25 @@
     </style>
     
                    
-      
+    <!-- <div class="flex justify-center">
+      <form @submit.prevent="submitForm">
+          <div class="mb-4">
+            <label for="name" class="block font-bold mb-2 mt-4"></label>
+            <input type="text" id="name" v-model="name" class="w-min px-10 py-2 rounded-lg border border-gray-400 bg-gray-100 focus:outline-none focus:ring focus:border-blue-300" placeholder="Yourname:"/>
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block font-bold mb-2"></label>
+            <input type="email" id="email" v-model="email" class="w-min px-10 py-2 rounded-lg border border-gray-400 bg-gray-100 focus:outline-none focus:ring focus:border-blue-300" placeholder="Email:" required/>
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block font-bold mb-2"></label>
+            <textarea id="message" v-model="message" rows="4" class="w-min px-12 py-2 rounded-lg border border-gray-400 bg-gray-100 focus:outline-none focus:ring focus:border-blue-300" placeholder="Message:" required></textarea>
+          </div>
+          <div class="flex justify-center items-center md:justify-start md:mx-auto mb-4 px-24">
+            <button type="submit" class="hover-red bg-black text-white px-4 py-2 rounded-lg" style="font-family: 'Poppins';">
+              Submit
+            </button>
+          </div>
+
+      </form>
+    </div> -->
