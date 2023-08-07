@@ -18,12 +18,12 @@
         
             <div class="relative md:hidden right-0">
               <div class="dropdown">
-                <button @click="toggleNavigation" class="p-2 mt-4 text-white fixed top-0 right-0 z-50 ml-6">
+                <button v-on:click="showNavigation = !showNavigation" class="p-2 mt-4 text-white fixed top-0 right-0 z-50 ml-6">
                   <svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                     <path fill="currentColor" fill-rule="evenodd" d="M3.5 5a1 1 0 0 0 0 2h17a1 1 0 1 0 0-2h-17Zm-1 7a1 1 0 0 1 1-1h17a1 1 0 1 1 0 2h-17a1 1 0 0 1-1-1Zm0 6.001a1 1 0 0 1 1-1h17a1 1 0 1 1 0 2h-17a1 1 0 0 1-1-1Z" clip-rule="evenodd" />
                   </svg>
                 </button>
-                <div v-if="showNavigation" class="md:hidden bg-blue-600 p-4 space-y-4 font-medium font-poppins fixed top-0 right-0 w-full z-40 transform translate-y-0 transition-transform duration-300 ml-6">
+                <div v-if="showNavigation" class="md:hidden bg-gray-400 p-4 space-y-4 font-medium font-poppins fixed top-0 right-0 w-full z-40 transform translate-y-0 transition-transform duration-300 ml-6">
                   <a href="#" class="block text-white">Home</a>
                   <a href="#about" class="block text-white">About</a>
                   <a href="#skills" class="block text-white">Skills</a>
@@ -32,10 +32,14 @@
                 </div>
               </div>
             </div>
+
           </nav>
 
         </header>
 
+
+
+    
         <main class="container mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div class="flex justify-center sm:justify-start items-center sm:mb-0 p-8 sm:pl-0 mt-12">
@@ -393,18 +397,11 @@
       },
 
       //burger icon
-
-    data() {
-      return {
-        showNavigation: false, // Initially, the navigation should be hidden
-      };
-    },
-    methods: {
-      toggleNavigation() {
-        this.showNavigation = !this.showNavigation; // Toggles the value of showNavigation
+      data() {
+        return {
+          showNavigation: false, 
+        };
       },
-    },
-
     
       //scroll down and up
       methods: {
