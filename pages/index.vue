@@ -15,32 +15,27 @@
                 <a href="#contact" class="text-white hover:text-blue-300 pt-6">Contact</a>
               </nav>    
             </div>
-              <div v-if="showNavigation" class="md:hidden bg-blue-600 p-4 space-y-4 font-medium font-poppins fixed top-0 left-0 w-full z-40 transform translate-y-0 transition-transform duration-300">
-                <a href="#" class="block text-white">Home</a>
-                <a href="#about" class="block text-white">About</a>
-                <a href="#skills" class="block text-white">skills</a>
-                <a href="#projects" class="block text-white">Projects</a>
-                <a href="#contact" class="block text-white">Contact</a>
+        
+            <div class="relative md:hidden right-0">
+              <div class="dropdown">
+                <button @click="toggleNavigation" class="p-2 mt-4 text-white fixed top-0 right-0 z-50 ml-6">
+                  <svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor" fill-rule="evenodd" d="M3.5 5a1 1 0 0 0 0 2h17a1 1 0 1 0 0-2h-17Zm-1 7a1 1 0 0 1 1-1h17a1 1 0 1 1 0 2h-17a1 1 0 0 1-1-1Zm0 6.001a1 1 0 0 1 1-1h17a1 1 0 1 1 0 2h-17a1 1 0 0 1-1-1Z" clip-rule="evenodd" />
+                  </svg>
+                </button>
+                <div v-if="showNavigation" class="md:hidden bg-blue-600 p-4 space-y-4 font-medium font-poppins fixed top-0 right-0 w-full z-40 transform translate-y-0 transition-transform duration-300 ml-6">
+                  <a href="#" class="block text-white">Home</a>
+                  <a href="#about" class="block text-white">About</a>
+                  <a href="#skills" class="block text-white">Skills</a>
+                  <a href="#projects" class="block text-white">Projects</a>
+                  <a href="#contact" class="block text-white">Contact</a>
+                </div>
               </div>
+            </div>
           </nav>
-        </header>
-        <div class="relative md:hidden right-0"> <!-- Positioning on the right side -->
-          <div class="dropdown">
-            <button @click="toggleNavigation" class="p-2 mt-4 text-white fixed top-0 right-0 z-50 ml-6"> <!-- Added ml-6 for left margin -->
-              <svg class="ml-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path fill="currentColor" fill-rule="evenodd" d="M3.5 5a1 1 0 0 0 0 2h17a1 1 0 1 0 0-2h-17Zm-1 7a1 1 0 0 1 1-1h17a1 1 0 1 1 0 2h-17a1 1 0 0 1-1-1Zm0 6.001a1 1 0 0 1 1-1h17a1 1 0 1 1 0 2h-17a1 1 0 0 1-1-1Z" clip-rule="evenodd" />
-              </svg>
-            </button>
-          </div>
 
-          <div v-if="showNavigation" class="md:hidden bg-blue-600 p-4 space-y-4 font-medium font-poppins fixed top-0 right-0 w-full z-40 transform translate-y-0 transition-transform duration-300 ml-6"> <!-- Added ml-6 for left margin -->
-            <a href="#" class="block text-white">Home</a>
-            <a href="#about" class="block text-white">About</a>
-            <a href="#skills" class="block text-white">skills</a>
-            <a href="#projects" class="block text-white">Projects</a>
-            <a href="#contact" class="block text-white">Contact</a>
-          </div>
-        </div>
+        </header>
+
 
 
     
@@ -401,16 +396,18 @@
       },
 
       //burger icon
+
       data() {
         return {
-          showNavigation: false,
+          showNavigation: false, // Initially, the navigation should be hidden
         };
       },
       methods: {
         toggleNavigation() {
-          this.showNavigation = !this.showNavigation;
+          this.showNavigation = !this.showNavigation; // Toggles the value of showNavigation
         },
       },
+
     
       //scroll down and up
       methods: {
