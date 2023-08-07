@@ -36,9 +36,6 @@
 
         </header>
 
-
-
-    
         <main class="container mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div class="flex justify-center sm:justify-start items-center sm:mb-0 p-8 sm:pl-0 mt-12">
@@ -397,16 +394,16 @@
 
       //burger icon
 
-      data() {
-        return {
-          showNavigation: false, // Initially, the navigation should be hidden
-        };
+    data() {
+      return {
+        showNavigation: false, // Initially, the navigation should be hidden
+      };
+    },
+    methods: {
+      toggleNavigation() {
+        this.showNavigation = !this.showNavigation; // Toggles the value of showNavigation
       },
-      methods: {
-        toggleNavigation() {
-          this.showNavigation = !this.showNavigation; // Toggles the value of showNavigation
-        },
-      },
+    },
 
     
       //scroll down and up
