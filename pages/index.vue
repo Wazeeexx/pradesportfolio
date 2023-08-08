@@ -23,22 +23,23 @@
                     <path fill="currentColor" fill-rule="evenodd" d="M3.5 5a1 1 0 0 0 0 2h17a1 1 0 1 0 0-2h-17Zm-1 7a1 1 0 0 1 1-1h17a1 1 0 1 1 0 2h-17a1 1 0 0 1-1-1Zm0 6.001a1 1 0 0 1 1-1h17a1 1 0 1 1 0 2h-17a1 1 0 0 1-1-1Z" clip-rule="evenodd" />
                   </svg>
                 </button>
-                <div v-if="showNavigation" class="md:hidden bg-gray-400 p-4 space-y-4 font-medium font-poppins fixed top-0 right-0 w-full z-40 transform translate-y-0 transition-transform duration-300 ml-6">
-                  <a href="#" class="block text-white">Home</a>
-                  <a href="#about" class="block text-white">About</a>
-                  <a href="#skills" class="block text-white">Skills</a>
-                  <a href="#projects" class="block text-white">Projects</a>
-                  <a href="#contact" class="block text-white">Contact</a>
+                <div v-if="showNavigation" class="md:hidden bg-gray-800 p-4 space-y-4 font-medium font-poppins fixed top-0 right-0 w-full z-40 transform translate-y-0 transition-transform duration-300 ml-6" style="margin-top: 48px;">
+                  <a href="#" class="block text-white hover:text-blue-300 mt-20" @click="closeNavigation">Home</a>
+                  <hr class="border-gray-300 mt-6">
+                  <a href="#about" class="block text-white hover:text-blue-300" @click="closeNavigation">About</a>
+                  <hr class="border-gray-300 mt-6">
+                  <a href="#skills" class="block text-white hover:text-blue-300" @click="closeNavigation">Skills</a>
+                  <hr class="border-gray-300 mt-6">
+                  <a href="#projects" class="block text-white hover:text-blue-300" @click="closeNavigation">Projects</a>
+                  <hr class="border-gray-300 mt-6">
+                  <a href="#contact" class="block text-white hover:text-blue-300" @click="closeNavigation">Contact</a>
+                  <hr class="border-gray-100">
                 </div>
               </div>
-            </div>
-
+            </div>  
           </nav>
 
         </header>
-
-
-
     
         <main class="container mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -232,7 +233,7 @@
                 <h1 class="mt-6 md:mt-0 md:ml-10" style="font-family: 'Poppins';">The two most popular stacks in the field of
                   <br>Web Development the MERN(<span class="font-semibold">MongoDB, Express JS, React and Node JS</span>)
                   <br>and WAMP(<span class="font-semibold">Windows, Apache, MySQL, and PHP</span>) stacks</h1>
-              </div>
+           </div>
     
             <section id="projects" class="mt-24 mb-8 w-screen ml-0">
               <h2 class="text-3xl font-bold text-center" style="font-family: 'Poppins';">My Projects</h2>
@@ -245,11 +246,11 @@
                   </div>
                   <div class="sm:ml-8">
                     <div class="text-justify mt-4 sm:mt-0 rounded-lg px-2 py-4" style="font-family: 'Poppins';">
-                      <p>
-                        I developed a road sign recognition system <br>using Convolutional Neural Networks (CNN). 
-                        <br>Leveraging deep learning algorithms, the system <br>accurately detects and classifies road signs <br>from images. 
-                        This project showcased my expertise <br>in computer vision and machine learning, <br>achieving high recognition. 
-                        It demonstrated my ability <br>to work with complex algorithms <br>in real-world scenarios.
+                      <p class="mt-4 sm:mt-0 px-4 sm:px-0 text-justify-mobile text-center-desktop" style="font-family: 'Poppins';">
+                        I developed a road sign recognition system  <br class="preserve-line-break" />using Convolutional Neural Networks (CNN). 
+                        <br class="preserve-line-break" />Leveraging deep learning algorithms, the system  <br class="preserve-line-break" />accurately detects and classifies road signs <br>from images. 
+                        This project showcased my expertise  <br class="preserve-line-break" />in computer vision and machine learning,  <br class="preserve-line-break" />achieving high recognition. 
+                        It demonstrated my ability  <br class="preserve-line-break" />to work with complex algorithms  <br class="preserve-line-break" />in real-world scenarios.
                       </p>
                     </div>
                   </div>
@@ -260,12 +261,16 @@
                 <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-left">
                   <div class="mb-8 sm:mb-0 order-2 sm:order-1">
                     <div class="left-side"> <!-- Removed justify-center sm:justify-start -->
-                      <p class="text-justify mt-4 sm:mt-0 px-4 sm:px-0" style="font-family: 'Poppins';">
-                        The ATM project is an electronic banking outlet <br>that enables customers to perform basic transactions 
-                        <br>without the assistance of a branch representative <br>or teller. 
-                        ATMs provide convenient self-service <br>transactions 
-                        such as depositing funds, withdrawing<br> cash, and transferring between accounts. 
-                        <br>These services are offered directly <br>by the banks. 
+                      <p class="mt-4 sm:mt-0 px-4 sm:px-0 text-justify-mobile text-center-desktop" style="font-family: 'Poppins';">
+                        The ATM project is an electronic banking outlet
+                        that enables  <br class="preserve-line-break" /> customers to perform basic transactions
+                        without   <br class="preserve-line-break" />the assistance of a branch representative
+                        or teller.  <br class="preserve-line-break" />
+                        ATMs provide convenient self-service transactions
+                        <br class="preserve-line-break" /> such as depositing funds, withdrawing
+                        <br class="preserve-line-break" /> cash, and transferring between accounts.  <br class="preserve-line-break" />
+                        These services are offered directly
+                        by the banks.
                       </p>
                     </div>
                   </div>
@@ -281,11 +286,11 @@
                   </div>
     
                   <div class="left-side sm:order-2 sm:ml-4">
-                    <p class="text-justify mt-4 sm:mt-0 px-4 sm:px-0" style="font-family: 'Poppins';">
-                      During my On-The Job Training journey, I had the <br>privilege of contributing to the development <br>of a 
-                      document maker website designed <br>specifically for law firm offices. <br>This robust software simplifies the process of 
-                      <br>creating legal documents, offering a user-friendly <br>interface for seamless and efficient document <br>generation. 
-                      It empowers legal professionals to <br>produce accurate and professional-looking <br>documents with ease.
+                    <p class="mt-4 sm:mt-0 px-4 sm:px-0 text-justify-mobile text-center-desktop" style="font-family: 'Poppins';">
+                      During my On-The Job Training journey, I had the <br class="preserve-line-break" />privilege of contributing to the development <br class="preserve-line-break" />of a 
+                      document maker website designed <br class="preserve-line-break" />specifically for law firm offices. <br class="preserve-line-break" />This robust software simplifies the process of 
+                      <br class="preserve-line-break" />creating legal documents, offering a user-friendly <br class="preserve-line-break" />interface for seamless and efficient document <br>generation. 
+                      It empowers legal professionals to <br class="preserve-line-break" />produce accurate and professional-looking <br class="preserve-line-break" />documents with ease.
                     </p>
                   </div>
                 </div>
@@ -319,28 +324,6 @@
                       </a>
                     </div>
                   </div>
-
-
-
-                      <!-- <div class="flex justify-center mb-2 gap-6 mt-4">
-                        <a class="flex items-center" style="font-family: 'Poppins';">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mx-2">
-                            <path fill="black" d="m18.73 5.41l-1.28 1L12 10.46L6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"/>
-                          </svg>: daveprades80@gmail.com
-                        </a>
-    
-                        <a class="flex items-center" style="font-family: 'Poppins';">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mx-2">
-                            <path fill="currentColor" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Z"/>
-                          </svg>: Zone, 7. San Vicente Ogbon, Nabua, Camarines Sur
-                        </a>
-    
-                        <a class="flex items-center" style="font-family: 'Poppins';">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mx-2">
-                            <path fill="currentColor" d="M6 17c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1H6m9-9a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3a3 3 0 0 1 3 3M3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2Z"/>
-                          </svg>: 09305126647
-                        </a>
-                      </div> -->
                    
               </section>
           </div>
@@ -402,7 +385,12 @@
           showNavigation: false, 
         };
       },
-    
+
+      methods: {
+      closeNavigation() {
+        this.showNavigation = false;
+        }
+      },
       //scroll down and up
       methods: {
         scrollToElement(elementId) {
@@ -434,14 +422,34 @@
         },
       },
     
-    
-    
+      
     
     };
     
     </script>
     
     <style>
+    .text-justify-mobile {
+      text-align: justify;
+    }
+
+    .text-center-desktop {
+      text-align: center;
+    }
+
+    .preserve-line-break {
+      display: block; /* Ensure <br> behaves as a block element */
+      content: ""; /* Hide the line break, but preserve its spacing */
+    }
+
+    @media (max-width: 640px) {
+      .text-justify-mobile {
+        text-align: justify;
+        text-align-last: justify; /* Align the last line to justify as well */
+        margin-right: 0; /* Remove right margin to ensure full width */
+      }
+    }
+
     html {
       scroll-behavior: smooth;
     }
