@@ -9,7 +9,7 @@
                 </h1>   
               <nav class="hidden md:flex space-x-10 font-medium font-poppins">
                 <a href="#" class="text-white hover:text-blue-300 pt-6 ml-4">Home</a>
-                <a href="#about" class="text-white hover:text-blue-300 pt-6">About</a>
+                <a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4">About</a>
                 <a href="#skills" class="text-white hover:text-blue-300 pt-6">Skills</a>
                 <a href="#projects" class="text-w hite hover:text-blue-300 pt-6">Projects</a>
                 <a href="#contact" class="text-white hover:text-blue-300 pt-6">Contact</a>
@@ -25,15 +25,15 @@
                 </button>
                 <div v-if="showNavigation" class="md:hidden bg-gray-800 p-4 space-y-4 font-medium font-poppins fixed top-0 right-0 w-full z-40 transform translate-y-0 transition-transform duration-300 ml-6" style="margin-top: 48px;">
                   <a href="#" class="block text-white hover:text-blue-300 mt-20" @click="closeNavigation">Home</a>
-                  <hr class="border-gray-300 mt-6">
+                    <hr class="border-gray-300 mt-6">
                   <a href="#about" class="block text-white hover:text-blue-300" @click="closeNavigation">About</a>
-                  <hr class="border-gray-300 mt-6">
+                    <hr class="border-gray-300 mt-6">
                   <a href="#skills" class="block text-white hover:text-blue-300" @click="closeNavigation">Skills</a>
-                  <hr class="border-gray-300 mt-6">
+                    <hr class="border-gray-300 mt-6">
                   <a href="#projects" class="block text-white hover:text-blue-300" @click="closeNavigation">Projects</a>
-                  <hr class="border-gray-300 mt-6">
+                    <hr class="border-gray-300 mt-6">
                   <a href="#contact" class="block text-white hover:text-blue-300" @click="closeNavigation">Contact</a>
-                  <hr class="border-gray-100">
+                    <hr class="border-gray-100">
                 </div>
               </div>
             </div>  
@@ -118,8 +118,8 @@
           <div class="border-t-2 border-gray-600 mt-10 "></div>
           
           <div>
-            <div id="about" class="grid grid-cols mt-24">
-              <h2 class="text-3xl font-bold font-poppins text-center mb-4" style="font-family: 'Poppins';">About Me</h2>
+            <div id="about" class="grid grid-cols mt-24 mb-8">
+              <h2 class="text-4xl font-bold font-poppins text-center mb-8 " style="font-family: 'Poppins';">About Me</h2>
               <div class="flex justify-center">
                 <p class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center" style="font-family: 'Poppins';">
                   Hi There! I'm Dave M. Prades, A Front-End Developer
@@ -144,7 +144,7 @@
             </div>
     
             <div id="skills" class="grid grid-cols mt-20">
-              <h2 class="text-3xl font-bold font-poppins text-center mb-4" style="font-family: 'Poppins';">Skills</h2>
+              <h2 class="text-4xl font-bold font-poppins text-center mb-4" style="font-family: 'Poppins';">Skills</h2>
               <div class="flex justify-center">
                 <p class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center" style="font-family: 'Poppins';">
                   Expertise To Help Bring Your Ideas To Life
@@ -236,7 +236,7 @@
            </div>
     
             <section id="projects" class="mt-24 mb-8 w-screen ml-0">
-              <h2 class="text-3xl font-bold text-center" style="font-family: 'Poppins';">My Projects</h2>
+              <h2 class="text-4xl font-bold text-center" style="font-family: 'Poppins';">My Projects</h2>
               <div class="flex flex-col sm:flex-row justify-center animate-fade-up">
                 <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-start">
                   <div class="mb-8 sm:mb-0">
@@ -298,7 +298,7 @@
             </section>
     
             <section id="contact">
-              <h1 class="text-3xl font-bold text-center mt-16" style="font-family: 'Poppins';">Contact Me</h1>
+              <h1 class="text-4xl font-bold text-center mt-16" style="font-family: 'Poppins';">Contact Me</h1>
                 <p class="flex justify-center" style="font-family: 'Poppins';">let's get connected:</p>
                 <h2 class="text-4xl font-bold text-center mt-12 text-gray-600 sm:flex sm:justify-center" style="font-family: 'Poppins';">
                   Do you have any project ideas?<br> Feel free to get in touch!</h2>
@@ -379,6 +379,25 @@
         typeWriter(typewriterElement, typewriterText, typewriterDelay);
       },
 
+
+      data() {
+        return {
+          showNavigation: false
+        };
+      },
+      methods: {
+        toggleNavigation() {
+          this.showNavigation = !this.showNavigation;
+        },
+        scrollToAbout() {
+          const aboutSection = document.querySelector('#about');
+          if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+          }
+          this.showNavigation = false; // Close the navigation after scrolling
+        }
+      },
+      
       //burger icon
       data() {
         return {
