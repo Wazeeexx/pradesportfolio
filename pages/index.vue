@@ -418,7 +418,7 @@
         },
       },
       
-//make
+    //make the burger icon close when clicking content
       data() {
         return {
           showNavigation: false
@@ -432,9 +432,6 @@
           this.showNavigation = false; // Close the navigation
         }
       },
-
-
-
 
 
       // message in contact
