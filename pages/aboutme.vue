@@ -20,10 +20,8 @@
                     I am confident that together we can create a remarkable digital solution. Thank you for considering me, and I look forward to the opportunity to contribute to the success of your project.
                   </p>
                 </div>
-    
               </div>
             </div>
-    
 </template>
 
 <script>
