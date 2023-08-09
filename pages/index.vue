@@ -104,7 +104,7 @@
                         </svg>
                       </button>
                     </a>
-                    </div>
+                </div>
              
                     <div class="flex flex-col items-center mt-6 ">
                       <a href="https://drive.google.com/drive/folders/1oSNrJauek5emIjKgUi377Bz-s5wM_2rP"  class="text-black-500 mr-60 inline-flex px-6 py-2 bg-black text-white rounded-lg border border-gray-500 mb-4 md:mb-18 font-bold"
@@ -159,9 +159,9 @@
                           <div class="rounded-lg px-2 py-4 flex items-center zoom-in">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 32 32">
                               <path fill="#e44f26" d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30L5.902 27.201z"/>
-                              <path fill="#f1662a" d="m16 27.858l8.17-2.265l1.922-21.532H16v23.797z"/>
-                              <path fill="#ebebeb" d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16v-3.091zm0 8.027l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004v-3.216z"/>
-                              <path fill="#fff" d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83h-7.185zm0-6.256v3.091h7.466l.062-.694l.141-1.567l.074-.83h-7.743z"/>
+                                <path fill="#f1662a" d="m16 27.858l8.17-2.265l1.922-21.532H16v23.797z"/>
+                                <path fill="#ebebeb" d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16v-3.091zm0 8.027l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004v-3.216z"/>
+                                <path fill="#fff" d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83h-7.185zm0-6.256v3.091h7.466l.062-.694l.141-1.567l.074-.83h-7.743z"/>
                             </svg>
                             <span class="p-2 text-sm md:text-base lg:text-sm hover-red" style="font-family: 'Poppins';">HTML</span>
                           </div>
@@ -172,8 +172,8 @@
                       <button class="col-span-1 md:col-span-2 lg:col-span-1">
                         <div class="rounded-lg px-2 py-4 flex items-center zoom-in">
                           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 32 32"><path fill="#1572b6" d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30L5.902 27.201z"/><path fill="#33a9dc" d="m16 27.858l8.17-2.265l1.922-21.532H16v23.797z"/>
-                          <path fill="#fff" d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829l-.759 8.518H16v-3.091z"/><path fill="#ebebeb" d="m16.019 21.218l-.014.004l-3.442-.93l-.22-2.465H9.24l.433 4.853l6.331 1.758l.015-.004v-3.216z"/>
-                          <path fill="#fff" d="m19.827 16.151l-.372 4.139l-3.447.93v3.216l6.336-1.756l.047-.522l.537-6.007h-3.101z"/><path fill="#ebebeb" d="M16.011 6.935v3.091H8.545l-.062-.695l-.141-1.567l-.074-.829h7.743zM16 13.191v3.091h-3.399l-.062-.695l-.14-1.567l-.074-.829H16z"/></svg>
+                            <path fill="#fff" d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829l-.759 8.518H16v-3.091z"/><path fill="#ebebeb" d="m16.019 21.218l-.014.004l-3.442-.93l-.22-2.465H9.24l.433 4.853l6.331 1.758l.015-.004v-3.216z"/>
+                            <path fill="#fff" d="m19.827 16.151l-.372 4.139l-3.447.93v3.216l6.336-1.756l.047-.522l.537-6.007h-3.101z"/><path fill="#ebebeb" d="M16.011 6.935v3.091H8.545l-.062-.695l-.141-1.567l-.074-.829h7.743zM16 13.191v3.091h-3.399l-.062-.695l-.14-1.567l-.074-.829H16z"/></svg>
                           <span class="p-2 text-sm md:text-base lg:text-sm" style="font-family: 'Poppins';">CSS</span>
                         </div>
                       </button>
@@ -418,28 +418,47 @@
         },
       },
       
-      // message in contact
+//make
       data() {
         return {
-          name: "",
-          email: "",
-          message: "",
+          showNavigation: false
         };
       },
       methods: {
-        submitForm() {
-          // Replace this function with your own logic to handle the form submission
-          console.log("Form submitted!");
-          console.log("Name:", this.name);
-          console.log("Email:", this.email);
-          console.log("Message:", this.message);
-    
-          // Clear the form fields after submission (optional)
-          this.name = "";
-          this.email = "";
-          this.message = "";
+        toggleNavigation() {
+          this.showNavigation = !this.showNavigation;
         },
+        closeNavigation() {
+          this.showNavigation = false; // Close the navigation
+        }
       },
+
+
+
+
+
+      // message in contact
+      // data() {
+      //   return {
+      //     name: "",
+      //     email: "",
+      //     message: "",
+      //   };
+      // },
+      // methods: {
+      //   submitForm() {
+      //     // Replace this function with your own logic to handle the form submission
+      //     console.log("Form submitted!");
+      //     console.log("Name:", this.name);
+      //     console.log("Email:", this.email);
+      //     console.log("Message:", this.message);
+    
+      //     // Clear the form fields after submission (optional)
+      //     this.name = "";
+      //     this.email = "";
+      //     this.message = "";
+      //   },
+      // },
     
       
     
@@ -611,21 +630,6 @@
         margin-right: 0;
       }
     }
-
-      /* Add the cursor animation here */
-      /* @keyframes blink {
-        0% { opacity: 0; }
-        50% { opacity: 1; }
-        100% { opacity: 0; }
-      }
-
-      .cursor {
-        display: inline-block;
-        width: 1px;
-        height: 1.2em;
-        background-color: black;
-        animation: blink 1s infinite;
-      } */
 
     </style>
     
