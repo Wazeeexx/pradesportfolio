@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div class="w-screen h-screen">
+      <div class="w-screen h-screen bg-gray-200">
         <header class="bg-gray-800 text-white py-6 flex justify-left">
           <nav class="navbar fixed top-0 w-full bg-gray-800 h-16 md:h-20">
             <div class="container mx-auto flex justify-between items-center">
