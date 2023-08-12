@@ -25,13 +25,13 @@
                 </button>
                 <div v-if="showNavigation" class="md:hidden bg-gray-800 p-4 space-y-4 font-medium font-poppins fixed top-0 right-0 w-full z-40 transform translate-y-0 transition-transform duration-300 ml-6" style="margin-top: 48px;">
                   <a href="#" class="block text-white hover:text-blue-300 mt-20" @click="closeNavigation">Home</a>
-                    <hr class="border-gray-300 mt-6">
+                    <hr class="border-gray-300 mt-2">
                   <a href="#about" class="block text-white hover:text-blue-300" @click="closeNavigation">About</a>
-                    <hr class="border-gray-300 mt-6">
+                    <hr class="border-gray-300 mt-2">
                   <a href="#skills" class="block text-white hover:text-blue-300" @click="closeNavigation">Skills</a>
-                    <hr class="border-gray-300 mt-6">
+                    <hr class="border-gray-300 mt-2">
                   <a href="#projects" class="block text-white hover:text-blue-300" @click="closeNavigation">Projects</a>
-                    <hr class="border-gray-300 mt-6">
+                    <hr class="border-gray-300 mt-2">
                   <a href="#contact" class="block text-white hover:text-blue-300" @click="closeNavigation">Contact</a>
                     <hr class="border-gray-100">
                 </div>
