@@ -44,7 +44,7 @@
         <main class="container mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div class="flex justify-center sm:justify-start items-center sm:mb-0 p-8 sm:pl-0 mt-12">
-              <img class="w-48 h-48 sm:w-96 sm:h-96 rounded-full shadow shadow-gray mx-auto" src="@/assets/picture/anime.png" />
+              <img class="w-48 h-48 sm:w-96 sm:h-96 rounded-full shadow shadow-gray mx-auto" src="@/assets/img/anime.png" />
             </div>
     
             <div class="flex-cols cols-span-2 flex-col sm:flex-row items-center flex justify-center sm:justify-between">
@@ -130,7 +130,7 @@
           
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div class="flex justify-center sm:justify-start mb-6 sm:mb-0 mx-auto">
-                  <img class="w-48 sm:w-96 h-48 sm:h-96 border border-gray-400 rounded-full shadow shadow-gray" src="@/assets/picture/Dave2x2.png" />
+                  <img class="w-48 sm:w-96 h-48 sm:h-96 border border-gray-400 rounded-full shadow shadow-gray hover:transform hover:scale-110 transition" src="@/assets/img/Dave2x2.png" />
                 </div>
     
                 <div class="mx-auto my-4 py-10 px-4 sm:px-0">
@@ -243,7 +243,7 @@
                 <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-start">
                   <div class="mb-8 sm:mb-0">
                     <div class="flex justify-center sm:justify-center">
-                      <img class="w-64 h-64 inline-block p-2 zoom-image" src="@/assets/picture/road.png" alt="Road Sign Icon">
+                      <img class="w-64 h-64 inline-block p-2 zoom-image" src="@/assets/img/road.png" alt="Road Sign Icon">
                     </div>
                   </div>
                   <div class="sm:ml-8">
@@ -277,14 +277,14 @@
                     </div>
                   </div>
                   <div class="order-1 sm:order-2">
-                    <img class="w-72 h-72 inline-block p-2 zoom-image" src="@/assets/picture/coding.png" alt="">
+                    <img class="w-72 h-72 inline-block p-2 zoom-image" src="@/assets/img/coding.png" alt="">
                   </div>
                 </div>
               </div>
               <div class="flex flex-col sm:flex-row mt-6 justify-center">
                 <div class="grid grid-cols-1 sm:grid-cols-2 mt-6 sm:mt-12 items-center sm:justify-left">
                   <div class="mb-8 sm:mb-0 sm:order-1"> <!-- Add justify-center class to center the image on mobile view -->
-                    <img class="w-64 h-64 inline-block p-2 zoom-image" src="@/assets/picture/dm.png" alt="">
+                    <img class="w-64 h-64 inline-block p-2 zoom-image" src="@/assets/img/dm.png" alt="">
                   </div>
     
                   <div class="left-side sm:order-2 sm:ml-4">
@@ -305,7 +305,7 @@
                 <h2 class="text-4xl font-bold text-center mt-12 text-gray-600 sm:flex sm:justify-center" style="font-family: 'Poppins';">
                   Do you have any project ideas?<br> Feel free to get in touch!</h2>
                   <div class="flex justify-center items-center">
-                    <img class="mt-12 mr-18 h-44 w-48 rounded-full mb-8 shadow-md" src="@/assets/picture/dave.png" alt="">
+                    <img class="mt-12 mr-18 h-44 w-48 rounded-full mb-8 shadow-md" src="@/assets/img/dave.png" alt="">
                     <div class="contact-info-container">
                       <a class="flex items-center" style="font-family: 'Poppins';">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mx-2">
