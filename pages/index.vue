@@ -8,11 +8,11 @@
                   Dave Prades
                 </h1>   
               <nav class="hidden md:flex space-x-10 font-medium font-poppins">
-                <a href="#" class="text-white hover:text-blue-300 pt-6 ml-4">Home</a>
-                <a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4">About</a>
-                <a href="#skills" class="text-white hover:text-blue-300 pt-6">Skills</a>
-                <a href="#projects" class="text-w hite hover:text-blue-300 pt-6">Projects</a>
-                <a href="#contact" class="text-white hover:text-blue-300 pt-6">Contact</a>
+                <a href="#" class="text-white pt-6 ml-4 transition hover:text-blue-300 hover:underline">Home</a>
+                <a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</a>
+                <a href="#skills" class="text-white hover:text-blue-300 pt-6 hover:underline">Skills</a>
+                <a href="#projects" class="text-w hite hover:text-blue-300 pt-6 hover:underline">Projects</a>
+                <a href="#contact" class="text-white hover:text-blue-300 pt-6 hover:underline">Contact</a>
               </nav>    
             </div>
         
