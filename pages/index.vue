@@ -47,10 +47,10 @@
               <img class="w-48 h-48 sm:w-96 sm:h-96 rounded-full shadow shadow-gray mx-auto" src="@/assets/img/anime.png" />
             </div>
     
-            <div class="flex-cols cols-span-2 flex-col sm:flex-row items-center flex justify-center sm:justify-between">
+            <div class="flex-cols cols-span-2 flex-col sm:flex-row items-center flex justify-center sm:justify-between mt-16">
               <section id="home" class="mb-8 sm:mr-4">
                 <div class="mt-4">
-                  <h2 class="text-xl md:text-4xl text-white font-bold animated-heading mt-6 md:mt-12" style="font-family: 'Poppins';">Welcome to My Portfolio!<span class="animate-waving-hand">👋🏻</span> </h2>
+                  <h2 class="text-xl md:text-4xl text-white font-bold animated-heading mt-6 md:mt-12 mt-8" style="font-family: 'Poppins';">Welcome to My Portfolio!<span class="animate-waving-hand">👋🏻</span> </h2>
                   <div class="mt-4 md:mt-8">
                     <div>
                       <h3 class="text-xl md:text-4xl text-white font-bold text-gray-800" style="font-family: 'Poppins';">Transforming Ideas Into <br class="md:hidden"> Functional Websites.</h3>
