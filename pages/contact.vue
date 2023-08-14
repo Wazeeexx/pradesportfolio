@@ -17,7 +17,7 @@
       <section id="contact" class="py-24 w-screen h-screen ">
         <h1 class="text-5xl font-bold text-center" style="font-family: 'Poppins';">Contact Me</h1>
         <p class="flex justify-center" style="font-family: 'Poppins';">let's get connected:</p>
-        <h2 class="text-4xl font-bold text-center mt-12 text-gray-600 sm:flex sm:justify-center" style="font-family: 'Poppins';">
+        <h2 class="text-4xl font-bold text-center mt-6 text-gray-600 sm:flex sm:justify-center" style="font-family: 'Poppins';">
         Do you have any project ideas?<br> Feel free to get in touch!</h2>
         <div class="flex justify-center items-center">
         <!-- <img class="mt-12 mr-18 h-44 w-48 rounded-full shadow-md" src="@/assets/img/dave.png" alt=""> -->
@@ -31,10 +31,10 @@
               </div>
             </a>
             <div class="flex flex-col justify-center text-center sm:text-left p-2">
-              <span class="text-white font-semibold mb-1 sm:mb-2 mt-4" style="font-family: 'Poppins';">: Address
-                <h1 class="text-xs">San Vicente Ogbon, Nabua, Camarines Sur</h1>
-              </span>
+              <span class="text-white font-semibold mb-1 sm:mb-2 mt-4" style="font-family: 'Poppins';">: Address</span>
+              <h1 class="text-xs sm:text-sm text-white" style="font-family: 'Poppins';">San Vicente Ogbon, Nabua, Camarines Sur</h1>
             </div>
+
           </div>
 
           <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start">
@@ -46,10 +46,10 @@
               </div>
             </a>
             <div class="flex flex-col justify-center text-center sm:text-left p-2">
-              <span class="text-white font-semibold mb-1 sm:mb-2 mt-4" style="font-family: 'Poppins';">: Email
-                <h1 class="text-xs">daveprades80@gmail.com</h1>
-              </span>
+              <span class="text-white font-semibold mb-1 sm:mb-2 mt-4" style="font-family: 'Poppins';">: Email</span>
+              <h1 class="text-xs sm:text-sm text-white" style="font-family: 'Poppins';">daveprades80@gmail.com</h1>
             </div>
+
           </div>
 
           <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start">
@@ -61,9 +61,8 @@
               </div>
             </a>
             <div class="flex flex-col justify-center text-center sm:text-left p-2">
-              <span class="text-white font-semibold mb-1 sm:mb-2 mt-4" style="font-family: 'Poppins';">: Contact No.
-                <h1 class="text-xs">09305126647</h1>
-              </span>
+              <span class="text-white font-semibold mb-1 sm:mb-2 mt-4" style="font-family: 'Poppins';">: Contact No.</span>
+              <h1 class="text-xs sm:text-sm text-white" style="font-family: 'Poppins';">09305126647</h1>
             </div>
           </div>
         </div>
