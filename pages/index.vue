@@ -7,12 +7,12 @@
                 <h1 class="text-xl sm:text-2xl font-bold text-center w-full sm:w-auto py-2 px-4 sm:px-0 mt-4" style="font-family: 'Poppins';">
                   Dave Prades
                 </h1>   
-              <nav class="hidden md:flex space-x-10 font-medium font-poppins">
-                <a href="#" class="text-white pt-6 ml-4 transition hover:text-blue-300 hover:underline">Home</a>
-                <a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</a>
-                <a href="#skills" class="text-white hover:text-blue-300 pt-6 hover:underline">Skills</a>
-                <a href="#projects" class="text-w hite hover:text-blue-300 pt-6 hover:underline">Projects</a>
-                <a href="#contact" class="text-white hover:text-blue-300 pt-6 hover:underline">Contact</a>
+                <nav class="hidden md:flex space-x-10 font-medium font-poppins">
+                  <a href="#" class="text-white pt-6 ml-4 transition hover:text-blue-300 hover:underline">Home</a>
+                  <NuxtLink to="/aboutme" a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</NuxtLink>
+                  <NuxtLink to="/skills" a href="#skills" class="text-white hover:text-blue-300 pt-6 hover:underline">Skills</NuxtLink>
+                  <NuxtLink to="/projects" a href="#projects" class="text-w hite hover:text-blue-300 pt-6 hover:underline">Projects</NuxtLink>
+                  <NuxtLink to="/contact" a href="#contact" class="text-white hover:text-blue-300 pt-6 hover:underline">Contact</NuxtLink>
               </nav>    
             </div>
         
@@ -234,6 +234,7 @@
                     <br>and WAMP(<span class="font-semibold">Windows, Apache, MySQL, and PHP</span>) stacks</h1>
             </div>
           </section>
+
             <section id="projects" class="w-screen ml-0 py-24">
               <h2 class="text-4xl font-bold text-center" style="font-family: 'Poppins';">My Projects</h2>
               <div class="flex flex-col sm:flex-row justify-center animate-fade-up">
