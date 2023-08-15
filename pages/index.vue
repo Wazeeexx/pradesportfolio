@@ -1,14 +1,15 @@
 <template>
+  <div> <menubar /> 
       <div class="w-full h-screen bg-gray-900">
         <div class="w-screen h-screen bg-gray-900">
-        <header class="bg-gray-800 text-white py-6 flex justify-left">
+        <header class="bg-gray-800 text-white flex justify-left">
           <nav class="navbar fixed top-0 w-full bg-gray-800 h-16 md:h-20">
             <div class="container mx-auto flex justify-between items-center">
                 <h1 class="text-xl sm:text-2xl font-bold text-center w-full sm:w-auto py-2 px-4 sm:px-0 mt-4" style="font-family: 'Poppins';">
                   Dave Prades
                 </h1>   
                 <nav class="hidden md:flex space-x-10 font-medium font-poppins">
-                  <a href="#" class="text-white pt-6 ml-4 transition hover:text-blue-300 hover:underline">Home</a>
+                  <Nuxtlink to="/#" a href="#" class="text-white pt-6 ml-4 transition hover:text-blue-300 hover:underline">Home</Nuxtlink>
                   <NuxtLink to="/aboutme" a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</NuxtLink>
                   <NuxtLink to="/skills" a href="#skills" class="text-white hover:text-blue-300 pt-6 hover:underline">Skills</NuxtLink>
                   <NuxtLink to="/projects" a href="#projects" class="text-w hite hover:text-blue-300 pt-6 hover:underline">Projects</NuxtLink>
@@ -16,7 +17,7 @@
               </nav>    
             </div>
         
-            <div class="relative md:hidden right-0">
+            <!-- <div class="relative md:hidden right-0">
               <div class="dropdown">
                 <button v-on:click="showNavigation = !showNavigation" class="p-2 mt-4 text-white fixed top-0 right-0 z-50 ml-6">
                   <svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -36,11 +37,11 @@
                     <hr class="border-gray-100">
                 </div>
               </div>
-            </div>  
+            </div>   -->
           </nav>
 
         </header>
-    
+        <div> <navbar />
         <main class="container mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div class="flex justify-center sm:justify-start items-center sm:mb-0 p-8 sm:pl-0 mt-12">
@@ -115,12 +116,11 @@
                     </div>
               </section>
             </div>
-        </div>
-    
-          <div class="border-t-2 border-gray-600 mt-10 "></div>
+          </div>
+  
 
         
-            <section id="about" class="grid grid-cols py-24">
+            <!-- <section id="about" class="grid grid-cols py-24">
               <h2 class="text-5xl font-bold font-poppins text-center mb-8 " style="font-family: 'Poppins';">About Me</h2>
               <div class="flex justify-center">
                 <p class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center" style="font-family: 'Poppins';">
@@ -143,8 +143,8 @@
                 </div>
               </div>
             </section>
-    
-            <section id="skills" class="grid grid-cols py-24">
+     -->
+            <!-- <section id="skills" class="grid grid-cols py-24">
               <h2 class="text-5xl font-bold font-poppins text-center mb-4" style="font-family: 'Poppins';">Skills</h2>
               <div class="flex justify-center">
                 <p class="text-3xl mb-8 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center" style="font-family: 'Poppins';">
@@ -233,9 +233,9 @@
                     <br>Web Development the MERN(<span class="font-semibold">MongoDB, Express JS, React and Node JS</span>)
                     <br>and WAMP(<span class="font-semibold">Windows, Apache, MySQL, and PHP</span>) stacks</h1>
             </div>
-          </section>
+          </section> -->
 
-            <section id="projects" class="w-screen ml-0 py-24">
+            <!-- <section id="projects" class="w-screen ml-0 py-24">
               <h2 class="text-4xl font-bold text-center" style="font-family: 'Poppins';">My Projects</h2>
               <div class="flex flex-col sm:flex-row justify-center animate-fade-up">
                 <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-start">
@@ -260,7 +260,7 @@
               <div class="flex flex-col sm:flex-row mt-6 justify-center">
                 <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-left">
                   <div class="mb-8 sm:mb-0 order-2 sm:order-1">
-                    <div class="left-side"> <!-- Removed justify-center sm:justify-start -->
+                    <div class="left-side"> 
                       <p class="mt-4 sm:mt-0 px-4 sm:px-0 text-justify-mobile text-center-desktop" style="font-family: 'Poppins';">
                         The ATM project is an electronic banking outlet
                         that enables  <br class="preserve-line-break" /> customers to perform basic transactions
@@ -281,7 +281,7 @@
               </div>
               <div class="flex flex-col sm:flex-row mt-6 justify-center">
                 <div class="grid grid-cols-1 sm:grid-cols-2 mt-6 sm:mt-12 items-center sm:justify-left">
-                  <div class="mb-8 sm:mb-0 sm:order-1"> <!-- Add justify-center class to center the image on mobile view -->
+                  <div class="mb-8 sm:mb-0 sm:order-1"> 
                     <img class="w-64 h-64 inline-block p-2 zoom-image" src="@/assets/img/dm.png" alt="">
                   </div>
     
@@ -295,9 +295,9 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </section> -->
     
-            <section id="contact" class="py-24 w-screen h-screen ">
+            <!-- <section id="contact" class="py-24 w-screen h-screen ">
               <h1 class="text-5xl font-bold text-center" style="font-family: 'Poppins';">Contact Me</h1>
                 <p class="flex justify-center" style="font-family: 'Poppins';">let's get connected:</p>
                 <h2 class="text-4xl font-bold text-center mt-12 text-gray-600 sm:flex sm:justify-center" style="font-family: 'Poppins';">
@@ -325,14 +325,14 @@
                     </div>
                   </div>
                    
-              </section>
+              </section> -->
         </main>
-    
-        <footer class="bg-gray-800 text-white py-4 text-center w-screen" style="font-family: 'Poppins';">
-          <p>© 2023 My Portfolio. All rights reserved.</p>
-        </footer>
+        
       </div>
+   
       </div>
+    </div>
+    </div>
     </template>
     
     <script>
