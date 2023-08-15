@@ -3,7 +3,7 @@
       <navbar />
       <menubar />
 
-      <section id="contact" class="py-24 w-screen h-screen ">
+      <section id="contact" class="py-12 w-screen h-screen ">
         <h1 class="text-5xl font-bold text-center" style="font-family: 'Poppins';">Contact Me</h1>
         <p class="flex justify-center" style="font-family: 'Poppins';">let's get connected:</p>
         <h2 class="text-4xl font-bold text-center mt-6 text-gray-600 sm:flex sm:justify-center" style="font-family: 'Poppins';">

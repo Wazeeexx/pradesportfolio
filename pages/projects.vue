@@ -3,8 +3,8 @@
         <navbar />
         <menubar />
 
-        <section id="projects" class="w-screen ml-0 py-24">
-            <h2 class="text-4xl font-bold text-center" style="font-family: 'Poppins';">My Projects</h2>
+        <section id="projects" class="w-screen ml-0 py-12">
+            <h2 class="text-5xl font-bold text-center" style="font-family: 'Poppins';">My Projects</h2>
             <div class="flex flex-col sm:flex-row justify-center animate-fade-up">
             <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-start">
                 <div class="sm:mb-0">
