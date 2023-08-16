@@ -7,9 +7,10 @@
                 <nav class="hidden md:flex space-x-10 font-medium font-poppins">
                   <NuxtLink to="/#" a href="#" class="text-white pt-6 ml-4 transition hover:text-blue-300 hover:underline">Home</NuxtLink>
                   <NuxtLink to="/aboutme" a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</NuxtLink>
+                  <NuxtLink to="/education" a href="#education" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">Education</NuxtLink>
                   <NuxtLink to="/skills" a href="#skills" class="text-white hover:text-blue-300 pt-6 hover:underline">Skills</NuxtLink>
                   <NuxtLink to="/projects" a href="#projects" class="text-w hite hover:text-blue-300 pt-6 hover:underline">Projects</NuxtLink>
-                  <NuxtLink to="/contact" a href="#contact" class="text-white hover:text-blue-300 pt-6 hover:underline">Contact</NuxtLink>
+                  <!-- <NuxtLink to="/contact" a href="#contact" class="text-white hover:text-blue-300 pt-6 hover:underline">Contact</NuxtLink> -->
                 </nav>    
         </div>
         <div class="dropdown">
@@ -22,6 +23,7 @@
                     <span class="divide-y divide-slate-100">
                         <NuxtLink to="/#" a href="#" class="block text-white hover:text-blue-300 mt-8" @click="closeNavigation">Home</NuxtLink>
                         <NuxtLink to="/aboutme" a href="#about" class="block text-white mt-2 pt-2 hover:text-blue-300" @click="closeNavigation">About</NuxtLink>
+                        <NuxtLink to="/education" a href="#education" class="block text-white mt-2 pt-2 hover:text-blue-300">Education</NuxtLink>
                         <NuxtLink to="/skills" a href="#skills" class="block text-white mt-2 pt-2 hover:text-blue-300" @click="closeNavigation">Skills</NuxtLink>
                         <NuxtLink to="/projects" a href="#projects" class="block text-white mt-2 pt-2 hover:text-blue-300" @click="closeNavigation">Projects</NuxtLink>
                         <NuxtLink to="/contact" a href="#contact" class="block text-white mt-2 pt-2 hover:text-blue-300" @click="closeNavigation">Contact</NuxtLink>
