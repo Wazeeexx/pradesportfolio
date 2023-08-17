@@ -13,7 +13,7 @@
 
       <div class="grid grid-cols-1 sm:grid-cols-2">
         <div class="flex justify-center sm:justify-end mb-6 sm:mb-0 mx-auto">
-          <img class="w-48 sm:w-96 h-48 sm:h-96 shadow shadow-gray-400" src="@/assets/img/Dave2x2.png" />
+          <img class="w-48 sm:w-96 h-48 sm:h-96 rounded-lg shadow shadow-gray-400" src="@/assets/img/Dave2x2.png" />
         </div>
         <div class="flex items-center mx-auto">
           <p class="text-base sm:text-base lg:text-base text-justify px-6 py-6 sm:mx-auto" style="font-family: 'Poppins';">
