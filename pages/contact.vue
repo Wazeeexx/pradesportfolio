@@ -11,7 +11,7 @@
         <div class="flex justify-center items-center">
         <!-- <img class="mt-12 mr-18 h-44 w-48 rounded-full shadow-md" src="@/assets/img/dave.png" alt=""> -->
         <div class="contact-info-container grid grid-cols-3 gap-6 mt-6">
-          <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start">
+          <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start hover:bg-gray-900">
             <a class="p-4 sm:w-14 sm:h-14 rounded-full bg-gray-700 flex items-center justify-center mb-4 sm:mb-0 sm:mr-4 ml-4 mt-4">
               <div class="relative flex justify-right">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="">
@@ -19,14 +19,14 @@
                 </svg>             
               </div>
             </a>
-            <div class="flex flex-col justify-center text-center sm:text-left p-2">
+            <div class="flex flex-col justify-center text-center sm:text-left p-2 ">
               <span class="text-white font-semibold mb-1 sm:mb-2 mt-4" style="font-family: 'Poppins';">: Address</span>
               <h1 class="text-xs sm:text-sm text-white" style="font-family: 'Poppins';">San Vicente Ogbon, Nabua, Camarines Sur</h1>
             </div>
 
           </div>
 
-            <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start">
+            <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start hover:bg-gray-900">
               <a class="p-4 sm:w-14 sm:h-14 rounded-full bg-gray-700 flex items-center justify-center mb-4 sm:mb-0 sm:mr-4 ml-4 mt-4">
                 <div class="relative flex justify-right">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="">
@@ -41,7 +41,7 @@
 
             </div>
 
-            <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start">
+            <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start hover:bg-gray-900">
               <a class="p-4 sm:w-14 sm:h-14 rounded-full bg-gray-700 flex items-center justify-center mb-4 sm:mb-0 sm:mr-4 ml-4 mt-4">
                 <div class="relative flex justify-right">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="">

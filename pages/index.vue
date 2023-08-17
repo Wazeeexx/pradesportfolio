@@ -111,7 +111,7 @@
                 </div>
              
                     <div class="flex flex-col items-center mt-6 mb-12">
-                      <a href="https://drive.google.com/drive/folders/1oSNrJauek5emIjKgUi377Bz-s5wM_2rP"  class="text-black-500 mr-60 inline-flex px-6 py-2 bg-gray-500 text-black rounded-lg border border-gray-200 mb-4 md:mb-18 font-bold hover:transform hover:scale-110 transition"
+                      <a href="https://drive.google.com/drive/folders/1oSNrJauek5emIjKgUi377Bz-s5wM_2rP"  class="text-black-500 mr-60 inline-flex px-6 py-2 bg-gray-500 text-black rounded-lg border border-gray-200 mb-4 md:mb-18 font-bold hover:bg-gray-600"
                         style="font-family: 'Poppins';">Resume<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="m12 16l-5-5l1.4-1.45l2.6 2.6V4h2v8.15l2.6-2.6L17 11l-5 5Zm-6 4q-.825 0-1.413-.588T4 18v-3h2v3h12v-3h2v3q0 .825-.588 1.413T18 20H6Z"/></svg>
                       </a>
                     </div>
