@@ -87,7 +87,7 @@
                 <span class="ml-0 md:ml-4 border-md"></span>
                 <h1 class="mt-6 md:mt-0 md:ml-10" style="font-family: 'Poppins';">The two most popular stacks in the field of
                 <br>Web Development the MERN(<span class="font-semibold">MongoDB, Express JS, React and Node JS</span>)
-                <br>and WAMP(<span class="font-semibold">Windows, Apache, MySQL, and PHP</span>) stacks</h1>
+                <br>and WAMP(<span class="font-semibold">Windows, Apache, MySQL, and PHP</span>) stacks.</h1>
             </div>
 
             <div class="flex justify-center mt-6">
