@@ -89,6 +89,23 @@
                 <br>Web Development the MERN(<span class="font-semibold">MongoDB, Express JS, React and Node JS</span>)
                 <br>and WAMP(<span class="font-semibold">Windows, Apache, MySQL, and PHP</span>) stacks</h1>
             </div>
+
+            <div class="flex justify-center mt-8">
+                <div class="col cols-span-2">
+                    <div class="flex justify-center gap-2">
+                        <div class="col-span-1 md:col-span-2">
+                            <img class="w-full h-auto md:h-36 border border-200 rounded-lg shadow shadow-gray-400" src="@/assets/img/mern.png" alt="">
+                        </div>
+                        <div class="col-span-2 md:col-span-3">
+                            <img class="w-full h-auto md:h-36 border border-200 rounded-lg shadow shadow-gray-400" src="@/assets/img/wamp.png" alt="">
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+
+
+                
             </section>
     </div>
     <footer class="bg-gray-800 text-white py-4 text-center w-screen" style="font-family: 'Poppins';">

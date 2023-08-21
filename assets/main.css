@@ -112,3 +112,10 @@
   content: url('//assets/picture/dave.png');
 }
 
+.mern-png{
+  content: url('./img/mern.png')
+}
+
+.wamp-png{
+  content: url('./img/wamp.png')
+}
