@@ -90,7 +90,7 @@
                 <br>and WAMP(<span class="font-semibold">Windows, Apache, MySQL, and PHP</span>) stacks</h1>
             </div>
 
-            <div class="flex justify-center mt-8">
+            <div class="flex justify-center mt-6">
                 <div class="col cols-span-2">
                     <div class="flex justify-center gap-2">
                         <div class="col-span-1 md:col-span-2">
