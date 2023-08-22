@@ -102,7 +102,8 @@
                     </div>
                 </div>  
             </div>
-            </section>
+        </section>
+        <Footer />
     </div>
 </template>
 <script>

@@ -23,7 +23,7 @@
                 </div>
             </div>
             <!-- Education Item 3 -->
-            <div class="text-white p-2 md:p-6 ml-8 mr-8">
+            <div class="text-white p-2 md:p-6 ml-8 mr-8">   
                 <div class="border shadow-md py-8 bg-gray-800 p-4 transition duration-300 hover:bg-gray-900">
                     <h3 class="text-xl font-semibold" style="font-family: 'Poppins';">Victor Bernal National High School</h3>
                     <p class="text-white mb-2" style="font-family: 'Poppins';">Junior High School</p>
@@ -40,6 +40,7 @@
             </div>
         </div>
     </section>
+    <Footer />
     </div>
  </template>
  
