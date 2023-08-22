@@ -3,7 +3,7 @@
      <navbar />
      <menubar /> 
  
-     <section id="education" class=" w-screen h-full grid grid-cols py-12">
+     <section id="education" class=" w-screen h-screen col cols-span-2 py-12">
        <h2 class="text-5xl font-bold font-poppins text-center" style="font-family: 'Poppins';">Education</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 flex jutify-center">
             <!-- Education Item 1 -->
@@ -41,10 +41,6 @@
         </div>
     </section>
     </div>
-
-    <footer class="bg-gray-800 text-white py-4 text-center w-screen" style="font-family: 'Poppins';">
-        <p>© 2023 My Portfolio. All rights reserved.</p>
-    </footer>
  </template>
  
  <script>
