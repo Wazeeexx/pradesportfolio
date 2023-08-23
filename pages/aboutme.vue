@@ -6,9 +6,7 @@
     <section id="about" class="py-12">
       <h2 class="text-5xl font-bold font-poppins text-center mb-8 " style="font-family: 'Poppins';">About Me</h2>
       <div class="flex justify-center">
-        <p class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center" style="font-family: 'Poppins';">
-          Hi There! I'm Dave M. Prades, A Front-End Developer
-        </p>
+        <p id="typewriter-text" class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center font-mono" style="font-family: 'Poppins';"></p>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2">
@@ -29,6 +27,40 @@
   <Footer />
 </template>
 <script>
+export default {
+  mounted() {
+    const textElement = document.getElementById("typewriter-text");
+    const text = "Hi There! I'm Dave M. Prades, A Front-End Developer.";
+
+    const type = () => {
+      let index = 0;
+      const typeInterval = setInterval(() => {
+        if (index <= text.length) {
+          textElement.textContent = text.substr(0, index);
+          index++;
+        } else {
+          clearInterval(typeInterval);
+          erase();
+        }
+      }, 100); // Adjust the delay to control typing speed
+    };
+
+    const erase = () => {
+      let index = text.length;
+      const eraseInterval = setInterval(() => {
+        if (index >= 0) {
+          textElement.textContent = text.substr(0, index);
+          index--;
+        } else {
+          clearInterval(eraseInterval);
+          type(); // Restart the typing loop
+        }
+      }, 100); // Adjust the delay to control erasing speed
+    };
+
+    type();
+  },
+};
 </script>
 
 <style>

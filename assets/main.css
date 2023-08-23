@@ -62,6 +62,14 @@
 .vuejs-icon{
   content: url('../assets/svg-icon/vuejs.svg');
 }
+.figma-icon{
+  content: url('../assets/svg-icon/figma');
+}
+
+.logo-icon{
+  content: url('../assets/img/logo.png');
+}
+
 
 @keyframes fade-right {
   0% {
@@ -102,6 +110,10 @@
   .sm\\:grid-cols-2 > * {
     grid-column: span 2;
   }
+}
+
+.gitlab-icon{
+  content: url('.//svg-icon/gitlab-fill.svg');
 }
 
 .project-bg{

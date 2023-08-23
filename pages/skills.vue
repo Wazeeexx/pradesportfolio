@@ -53,7 +53,7 @@
 
                     <button class="col-span-1 md:col-span-2 lg:col-span-1 ">
                         <div class="rounded-lg px-2 py-4 flex items-center shadow shadow-gray-400">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 384"><path fill="#0ACF83" d="M64 384c35.328 0 64-28.672 64-64v-64H64c-35.328 0-64 28.672-64 64s28.672 64 64 64Z"/><path fill="#A259FF" d="M0 192c0-35.328 28.672-64 64-64h64v128H64c-35.328 0-64-28.672-64-64Z"/><path fill="#F24E1E" d="M0 64C0 28.672 28.672 0 64 0h64v128H64C28.672 128 0 99.328 0 64Z"/><path fill="#FF7262" d="M128 0h64c35.328 0 64 28.672 64 64s-28.672 64-64 64h-64V0Z"/><path fill="#1ABCFE" d="M256 192c0 35.328-28.672 64-64 64s-64-28.672-64-64s28.672-64 64-64s64 28.672 64 64Z"/></svg>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 384"><path fill="#0ACF83" d="M64 384c35.328 0 64-28.672 64-64v-64H64c-35.328 0-64 28.672-64 64s28.672 64 64 64Z"/><path fill="#A259FF" d="M0 192c0-35.328 28.672-64 64-64h64v128H64c-35.328 0-64-28.672-64-64Z"/><path fill="#F24E1E" d="M0 64C0 28.672 28.672 0 64 0h64v128H64C28.672 128 0 99.328 0 64Z"/><path fill="#FF7262" d="M128 0h64c35.328 0 64 28.672 64 64s-28.672 64-64 64h-64V0Z"/><path fill="#1ABCFE" d="M256 192c0 35.328-28.672 64-64 64s-64-28.672-64-64s28.672-64 64-64s64 28.672 64 64Z"/></svg>
                             <span class="p-2 text-sm md:text-base lg:text-sm font-semibold" style="font-family: 'Poppins';">Figma</span>
                         </div>
                     </button>
@@ -78,7 +78,36 @@
                             <span class="p-2 text-sm md:text-base lg:text-sm font-semibold" style="font-family: 'Poppins';">ReactJs</span>
                         </div>
                     </button>
-                </div>
+
+                    <button class="col-span-1 md:col-span-2 lg:col-span-1 shadow ">
+                        <div class="rounded-lg px-2 py-4 flex items-center shadow shadow-gray-400 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 128 128"><path fill="#E24329" d="m124.755 51.382l-.177-.452L107.47 6.282a4.459 4.459 0 0 0-1.761-2.121a4.581 4.581 0 0 0-5.236.281a4.578 4.578 0 0 0-1.518 2.304L87.404 42.088H40.629L29.077 6.746a4.492 4.492 0 0 0-1.518-2.31a4.581 4.581 0 0 0-5.236-.281a4.502 4.502 0 0 0-1.761 2.121L3.422 50.904l-.17.452c-5.059 13.219-.763 28.192 10.537 36.716l.059.046l.157.111l26.061 19.516l12.893 9.758l7.854 5.93a5.283 5.283 0 0 0 6.388 0l7.854-5.93l12.893-9.758l26.218-19.634l.065-.052c11.273-8.526 15.562-23.472 10.524-36.677z"/><path fill="#FC6D26" d="m124.755 51.382l-.177-.452a57.79 57.79 0 0 0-23.005 10.341L64 89.682c12.795 9.68 23.934 18.09 23.934 18.09l26.218-19.634l.065-.052c11.291-8.527 15.586-23.488 10.538-36.704z"/><path fill="#FCA326" d="m40.066 107.771l12.893 9.758l7.854 5.93a5.283 5.283 0 0 0 6.388 0l7.854-5.93l12.893-9.758s-11.152-8.436-23.947-18.09a18379.202 18379.202 0 0 0-23.935 18.09z"/><path fill="#FC6D26" d="M26.42 61.271A57.73 57.73 0 0 0 3.422 50.904l-.17.452c-5.059 13.219-.763 28.192 10.537 36.716l.059.046l.157.111l26.061 19.516L64 89.655L26.42 61.271z"/></svg>
+                            <span class="p-2 text-sm md:text-base lg:text-sm font-semibold" style="font-family: 'Poppins';">Gitlab</span>
+                        </div>
+                    </button>
+
+                    <button class="col-span-1 md:col-span-2 lg:col-span-1 shadow ">
+                        <div class="rounded-lg px-2 py-4 flex items-center shadow shadow-gray-400 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                            <path fill="black" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+                            <span class="p-2 text-sm md:text-base lg:text-sm font-semibold" style="font-family: 'Poppins';">GitHub</span>
+                        </div>
+                    </button>
+
+                    <button class="col-span-1 md:col-span-2 lg:col-span-1 shadow ">
+                        <div class="rounded-lg px-2 py-4 flex items-center shadow shadow-gray-400 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="currentColor" d="M2.6 10.59L8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2a2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg>
+                            <span class="p-2 text-sm md:text-base lg:text-sm font-semibold" style="font-family: 'Poppins';">Git</span>
+                        </div>
+                    </button>
+
+                    <button class="col-span-1 md:col-span-2 lg:col-span-1 shadow ">
+                        <div class="rounded-lg px-2 py-4 flex items-center shadow shadow-gray-400 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><g fill="black"><g clip-path="url(#akarIconsTypescriptFill0)"><path fill="currentColor" d="M23.429 0H.57A.571.571 0 0 0 0 .571V23.43a.57.57 0 0 0 .571.571H23.43a.571.571 0 0 0 .571-.571V.57a.571.571 0 0 0-.572-.57Zm-9.143 12.826h-2.857v8.888H9.143v-8.888H6.286v-1.969h8v1.969Zm.64 8.38v-2.375s1.298.978 2.855.978s1.497-1.018 1.497-1.158c0-1.477-4.412-1.477-4.412-4.751c0-4.452 6.429-2.695 6.429-2.695l-.08 2.116s-1.078-.719-2.296-.719c-1.218 0-1.657.58-1.657 1.198c0 1.597 4.452 1.438 4.452 4.652c0 4.95-6.788 2.755-6.788 2.755Z"/></g><defs><clipPath id="akarIconsTypescriptFill0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></g></svg>
+                            <span class="p-2 text-sm md:text-base lg:text-sm font-semibold" style="font-family: 'Poppins';">TypeScript</span>
+                        </div>
+                    </button>
+                </div>  
             </div>
 
             <div class="container mx-auto mt-12 p-4 text-center md:text-left md:flex md:items-center md:justify-center">

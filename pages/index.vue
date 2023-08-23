@@ -1,21 +1,19 @@
 <template>
-  <div> <menubar /> 
+  <div> <menubar />
       <div class="w-full h-screen bg-gray-900">
         <div class="w-screen h-screen bg-gray-900">
         <header class="bg-gray-800 text-white flex justify-left">
           <nav class="navbar fixed top-0 w-full bg-gray-800 h-16 md:h-20">
             <div class="container mx-auto flex justify-between items-center">
-                <h1 class="text-xl sm:text-2xl font-bold text-center w-full sm:w-auto py-2 px-4 sm:px-0 mt-4" style="font-family: 'Poppins';">
-                  Dave Prades
-                </h1>   
-                <nav class="hidden md:flex space-x-10 font-medium font-poppins">
+              <img class="w-20 h-20 md:w-18 md:h-18" src="@/assets/img/logo.png" alt="Logo">
+                <!-- <nav class="hidden md:flex space-x-10 font-medium font-poppins">
                   <Nuxtlink to="/#" a href="#" class="text-white pt-6 ml-4 transition hover:text-blue-300 hover:underline">Home</Nuxtlink>
                   <NuxtLink to="/aboutme" a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</NuxtLink>
                   <NuxtLink to="/education" a href="#education" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">Edu</NuxtLink>
                   <NuxtLink to="/skills" a href="#skills" class="text-white hover:text-blue-300 pt-6 hover:underline">Skills</NuxtLink>
                   <NuxtLink to="/projects" a href="#projects" class="text-w hite hover:text-blue-300 pt-6 hover:underline">Projects</NuxtLink>
                   <NuxtLink to="/contact" a href="#contact" class="text-white hover:text-blue-300 pt-6 hover:underline">Contact</NuxtLink>
-              </nav>    
+                </nav>     -->
             </div>
         
             <!-- <div class="relative md:hidden right-0">
@@ -42,13 +40,13 @@
           </nav>
 
         </header>
-        <div> <navbar />
+        <div>
         <main class="container mx-auto">
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div class="flex justify-center sm:justify-start items-center sm:mb-0 p-8 sm:pl-0 mt-12">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 px-12">
+            <!-- <div class="flex justify-center sm:justify-start items-center sm:mb-0 p-8 sm:pl-0 mt-12">
               <img class="w-48 h-48 sm:w-96 sm:h-96 rounded-full shadow shadow-gray mx-auto" src="@/assets/img/anime.png" />
             </div>
-    
+     -->
             <div class="flex-cols cols-span-2 flex-col sm:flex-row items-center flex justify-center sm:justify-between mt-16">
               <section id="home" class="mb-8 sm:mr-4">
                 <div class="mt-4">
@@ -57,16 +55,23 @@
                     <div>
                       <h3 class="text-xl md:text-4xl text-white font-bold text-gray-800" style="font-family: 'Poppins';">Transforming Ideas Into <br class="md:hidden"> Functional Websites.</h3>
                     </div>
-                    <div>
+                  
                       <h1 class="text-lg md:text-3xl font-bold text-blue-600 font-semibold font-poppins" ref="typewriter"><span class="cursor"></span></h1>
-
-                    </div>
+                  
+                    <nav class="hidden md:flex space-x-10 font-medium font-poppins mr-4">
+                      <Nuxtlink to="/#" a href="#" class="text-white pt-6 transition hover:text-blue-300 hover:underline">Home</Nuxtlink>
+                      <NuxtLink to="/aboutme" a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</NuxtLink>
+                      <NuxtLink to="/education" a href="#education" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">Education</NuxtLink>
+                      <NuxtLink to="/skills" a href="#skills" class="text-white hover:text-blue-300 pt-6 hover:underline">Skills</NuxtLink>
+                      <NuxtLink to="/projects" a href="#projects" class="text-white hover:text-blue-300 pt-6 hover:underline">Projects</NuxtLink>
+                      <NuxtLink to="/contact" a href="#contact" class="text-white hover:text-blue-300 pt-6 hover:underline">Contact</NuxtLink>
+                    </nav>    
                   </div>
                 </div>
     
                   <div class="mt-8">
                     <!-- gmail -->
-                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="ml-2 mt-2">
+                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="mt-2">
                       <button class="hover-red border border-gray-200 rounded-full bg-gray-500 p-2 hover:transform hover:scale-110 transition">
                         <!-- <span class="gmail-icon"></span> -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -117,7 +122,9 @@
                     </div>
               </section>
             </div>
+            
           </div>
+          
   
 
         
