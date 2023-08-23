@@ -1,10 +1,12 @@
 <template>
      <nav class="navbar fixed top-0 w-full bg-gray-800 h-16 md:h-20">
       <div class="container mx-auto flex justify-between items-center">
-          <h1 class="text-xl sm:text-2xl font-bold text-center text-white w-full sm:w-auto py-2 px-4 sm:px-0 mt-4" style="font-family: 'Poppins';">
-            Dave Prades
-          </h1>   
-        <nav class="hidden md:flex space-x-10 font-medium font-poppins">
+        <NuxtLink to="/" class="block">
+          <img class="w-20 h-20 md:w-18 md:h-18" src="@/assets/img/logo.png" alt="Logo">
+        </NuxtLink>
+
+  
+        <nav class="hidden md:flex space-x-10 font-medium font-poppins mb-4">
           <NuxtLink to="/#" a href="#" class="text-white pt-6 ml-4 transition hover:text-blue-300 hover:underline">Home</NuxtLink>
           <NuxtLink to="/aboutme" a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</NuxtLink>
           <NuxtLink to="/education" a href="#education" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">Education</NuxtLink>

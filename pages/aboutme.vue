@@ -13,6 +13,7 @@
         <div class="flex justify-center sm:justify-end mb-6 sm:mb-0 mx-auto">
           <img class="w-48 sm:w-96 h-48 sm:h-96 rounded-lg shadow shadow-gray-400" src="@/assets/img/Dave2x2.png" />
         </div>
+        
         <div class="flex items-center mx-auto">
           <p class="text-base sm:text-base lg:text-base text-justify px-6 py-6 sm:mx-auto" style="font-family: 'Poppins';">
             I'm a passionate front-end developer specializing in creating engaging user experiences. With expertise in HTML, CSS, and JavaScript,
