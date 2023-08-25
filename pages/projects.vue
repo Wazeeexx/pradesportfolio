@@ -8,9 +8,9 @@
             <div class="flex flex-col sm:flex-row justify-center animate-fade-up">
                 <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-start">
                     <div class="sm:mb-0">
-                        <div class="flex justify-center sm:justify-center">
+                        <button class="flex justify-center sm:justify-center">
                             <img class="w-2/3 inline-block p-2 " src="@/assets/img/prototype.png" alt="">
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -30,9 +30,14 @@
             <div class="flex flex-col sm:flex-row justify-center animate-fade-up">
                 <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-start">
                     <div class="sm:mb-0">
-                        <div class="flex justify-center">
-                            <img class="w-3/4 inline-block p-2" src="@/assets/img/atm1.png" alt="">
-                        </div> 
+                        <button href="https://github.com/Wazeeexx/ATM-Management-System" class="image-container">
+                            <div class="overlay">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 48 48"><g fill="white" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M27 9V21H39"/><path d="M21 39V27H9"/><path d="M27 21L42 6"/><path d="M21 27L6 42"/></g></svg>
+                            </div>
+                            <div class="flex justify-center">
+                                <img class="w-3/4 p-2" src="@/assets/img/atm1.png" alt="">
+                            </div>
+                        </button>
                     </div>
                 </div>
             </div>  
@@ -64,7 +69,6 @@
                     </div>
                 </div>
             </div>
-      
 
             <div class="sm:ml-8 flex justify-center ">
                 <div class="text-justify mt-4 sm:mt-0 rounded-lg px-2 py-4 max-w-lg" style="font-family: 'Poppins';">
@@ -106,4 +110,34 @@ export default {
 </script>
 
 <style>
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image-container:hover img {
+    filter: blur(4px); /* Apply blur effect */
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .image-container:hover .overlay {
+    display: flex;
+  }
+
+  .overlay svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+  }
+
 </style>
