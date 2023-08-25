@@ -317,3 +317,15 @@ html {
 .animate-waving-hand {
   animation: waving 1s infinite;
 }
+ 
+.prototype-png{
+  content: url(../assets/img/prototype.png);
+}
+
+.atm1-png{
+  content: url(../assets/img/atm1.png);
+}
+
+.document-png{
+  content: url(../assets/img/document.png);
+}
