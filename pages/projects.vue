@@ -7,11 +7,14 @@
             <h2 class="text-5xl font-bold text-center" style="font-family: 'Poppins';">My Projects</h2>
             <div class="flex flex-col sm:flex-row justify-center animate-fade-up">
                 <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-start">
-                    <div class="sm:mb-0">
-                        <button class="flex justify-center sm:justify-center">
+                    <button href="" class="image-container">
+                            <div class="overlay">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 48 48"><g fill="white" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M27 9V21H39"/><path d="M21 39V27H9"/><path d="M27 21L42 6"/><path d="M21 27L6 42"/></g></svg>
+                            </div>
+                        <div class="flex justify-center sm:justify-center">
                             <img class="w-2/3 inline-block p-2 " src="@/assets/img/prototype.png" alt="">
-                        </button>
-                    </div>
+                        </div>
+                    </button>
                 </div>
             </div>
             <div class="sm:ml-8 flex justify-center ">
@@ -62,11 +65,14 @@
 
             <div class="flex flex-col sm:flex-row justify-center animate-fade-up">
                 <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-start">
-                    <div class="sm:mb-0">
-                        <div class="mb-8 sm:mb-0 sm:order-1 flex justify-center"> <!-- Add justify-center class to center the image on mobile view -->
+                    <button href="" class="image-container">
+                        <div class="overlay">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 48 48"><g fill="white" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M27 9V21H39"/><path d="M21 39V27H9"/><path d="M27 21L42 6"/><path d="M21 27L6 42"/></g></svg>
+                        </div>
+                        <div class="mb-8 sm:mb-0 sm:order-1 flex justify-center">
                             <img class="w-3/4 inline-block p-2" src="@/assets/img/document.png" alt="">
                         </div> 
-                    </div>
+                    </button>
                 </div>
             </div>
 
