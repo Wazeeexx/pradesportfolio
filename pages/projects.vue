@@ -3,9 +3,49 @@
         <navbar />
         <menubar />
 
-        <section id="projects" class="w-fit ml-0 py-12">
-            <h2 class="text-5xl font-bold text-center" style="font-family: 'Poppins';">My Projects</h2>
-            <div class="flex flex-col sm:flex-row justify-center animate-fade-up text-center">
+        <section id="projects" class="w-screen py-12">
+            <div class="flex justify-center">
+                <h2 class="text-5xl font-bold" style="font-family: 'Poppins';">My Projects</h2>
+            </div>
+
+            <div class="flex justify-center">
+                <div class="col-span-3 sm:col-span-1 flex flex-col sm:flex-row sm:mt-12 sm:justify-start gap-6">
+                    <button class="image-container" @click="showNewTemplate">
+                        <div class="overlay">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="white" d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8z"/></svg>
+                        </div>
+                        <div class="flex justify-center sm:justify-center border border-gray-400 rounded-lg">
+                            <img id="scrollingImage" class="w-96 inline-block p-2 sm:mx-auto scrolling-image" src="@/assets/img/prototype.png" alt="">
+                        </div>
+                        <div v-if="showTemplate" class="max-w-lg mx-auto mt-8">
+                            <!-- Your new paragraph template content here -->
+                            <p>This is a new paragraph template that appears when the image is clicked.</p>
+                        </div>
+                    </button>
+                    <div class="col-span-3 sm:col-span-1 flex flex-col sm:flex-row sm:justify-start">
+                        <a href="" class="image-container">
+                            <div class="overlay">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="white" d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8z"/></svg>
+                            </div>
+                            <div class="flex justify-center sm:justify-center border border-gray-400 rounded-lg">
+                                <img id="scrollingImage" class="w-96 inline-block p-2 sm:mx-auto scrolling-image" src="@/assets/img/atm1.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-span-3 sm:col-span-1 flex flex-col sm:flex-row sm:justify-start">
+                        <a href="" class="image-container">
+                            <div class="overlay">
+                                <svg class="border border-gray-400" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="white" d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8z"/></svg>
+                            </div>
+                            <div class="flex justify-center sm:justify-center border border-gray-400 rounded-lg py-1">
+                                <img id="scrollingImage" class="w-80 h-44 inline-block p-2 sm:mx-auto"  src="@/assets/img/document.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <div class="flex flex-col sm:flex-row justify-center animate-fade-up text-center">
                 <div class="flex flex-col sm:flex-row mt-6 sm:mt-12 items-center sm:justify-start">
                     <a href="https://github.com/Wazeeexx/Recognition-of-Road-Sign-Using-CNN" class="image-container">
                         <div class="overlay">
@@ -98,9 +138,9 @@
                     </button>
                 </div>
             </div>
-            <div class="border-b-4 mt-10 border-gray-500 ..."></div>
+            <div class="border-b-4 mt-10 border-gray-500 ..."></div> -->
         </section>
-        <Footer />
+        <!-- <Footer /> -->
     </div>
 </template>
 <script>
