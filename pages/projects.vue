@@ -7,6 +7,14 @@
             <div class="flex justify-center">
                 <h2 class="text-5xl font-bold" style="font-family: 'Poppins';">My Projects</h2>
             </div>
+            <div class="flex justify-center pt-6 gap-2">
+                <button class="border rounded-lg py-2 px-2 hover:bg-gray-500"  style="font-family: 'Poppins';">Web App</button>
+
+                <div>
+                    <button class="border rounded-lg py-2 px-2 hover:bg-gray-500"  style="font-family: 'Poppins';">Project</button>
+                </div>
+            </div>
+
             <div class="flex justify-center mt-10">
                 <div class="col-span-3 sm:col-span-1 flex flex-col sm:flex-row sm:justify-start gap-6">
                     <div>
@@ -33,14 +41,13 @@
                                         Check out the project on GitHub: https://github.com/Wazeeexx/Recognition-of-Road-Sign-Using-CNN</a>
                                         </span>
                                     </p>
-                                    <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Group Mates:</p>
+                                    <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Tech Stack Used</p>
                                     <div class="px-6 py-2" style="font-family: 'Poppins';">
                                         <ul>
-                                            <li>Dave Prades</li>
-                                            <li>Brianna Carlota Tabuena</li>
-                                            <li>Samantha Amor Deres</li>
-                                            <li>Caroline Munar</li>
-                                            <li>Zyndrek Saunar</li>
+                                            <li>Jupyter Notebook</li>
+                                            <li>Python</li>
+                                            <li>JavaScript</li>
+                                            <li>Html and CSS</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -54,7 +61,7 @@
                         <div class="overlay">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="red" d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8z"/></svg>
                         </div>
-                        <p class="font-bold text-1xl pb-2 hover:underline" style="font-family: 'Poppins';">ATM MANAGEMENT SYSTEM</p>
+                        <p class="font-bold text-1xl pb-2 " style="font-family: 'Poppins';">ATM MANAGEMENT SYSTEM</p>
                         <div class="flex justify-center sm:justify-center border border-gray-400 rounded-lg">
                             <img class="w-96 inline-block p-2 sm:mx-auto scrolling-image" src="@/assets/img/atm1.png" alt="">
                         </div>
@@ -78,41 +85,44 @@
                                         Check out the project on GitHub: https://github.com/Wazeeexx/ATM-Management-System</a>
                                     </span>
                                 </p>
+                                <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Tech Stack Used</p>
+                                    <div class="px-6 py-2" style="font-family: 'Poppins';">
+                                        <ul>
+                                            <li>Java</li>
+                                        </ul>
+                                    </div>
                             </div>
                             <button class="modal-close hover:bg-gray-800" @click="closeModal" style="font-family: 'Poppins';">Close</button>
                         </div>
                     </div>
                 </div>
 
-                <!-- <div class="col-span-3 sm:col-span-1 flex flex-col sm:flex-row sm:justify-start">
-                    <button class="image-container">
+                <div class="col-span-3 sm:col-span-1 flex flex-col sm:flex-row sm:justify-start">
+                    <button class="image-container" id="openModalBtn">
                         <div class="overlay">
-                            <svg class="bg-gray-600" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="red" d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8z"/></svg>
+                            <svg class="bg-gray-600" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                                <!-- SVG path here -->
+                            </svg>
                         </div>
                         <p class="font-bold text-1xl pb-2" style="font-family: 'Poppins';">DOCUMENT MAKER</p>
                         <div class="flex justify-center sm:justify-center border border-gray-400 rounded-lg">
                             <img id="modalImage" class="w-80 h-44 inline-block p-2 sm:mx-auto" src="@/assets/img/document.png" alt="">
                         </div>
                     </button>
+                </div>
 
-                    <div v-if="activeModal" class="modal-overlay">
-                        <div class="modal">
-                            <div class="modal-content bg-gray-300 border rounded-lg">
-                                <p class="text-justify px-6 py-2" style="font-family: 'Poppins';">
-                                    During my On-The Job Training journey, I had the privilege of contributing to the development of a 
-                                    document maker website designed specifically for law firm offices. This robust software simplifies the process of 
-                                    creating legal documents, offering a user-friendly interface for seamless and efficient document generation. 
-                                    It empowers legal professionals to produce accurate and professional-looking documents with ease.
-                                </p>
-                            </div>
-                            <button class="modal-close hover:bg-gray-800" @click="closeModal" style="font-family: 'Poppins';">Close</button>
-                        </div>
+                <!-- Modal -->
+                <div class="modal hidden fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50" id="myModal">
+                    <div class="modal-content bg-white p-6 rounded shadow-md">
+                        <p>This is a paragraph template that appears in the modal.</p>
+                        <button class="mt-4 px-4 py-2 bg-gray-500 text-white rounded" id="closeModalBtn">Close</button>
                     </div>
-                </div> -->
+                </div>
               </div>
             </div>
         </section>
     </div>
+    
 <Footer />
 </template>
 <script>
