@@ -37,7 +37,7 @@
                                         This project showcased my expertise in computer vision and machine learning, achieving high recognition. 
                                         It demonstrated my ability to work with complex algorithms in real-world scenarios.<br>
                                         <span class="font-semibold"  style="font-family: 'Poppins';">
-                                        <a href="https://github.com/Wazeeexx/Recognition-of-Road-Sign-Using-CNN" target="_blank" rel="noopener noreferrer">
+                                        <a href="" target="_blank" rel="noopener noreferrer">
                                         Check out the project on GitHub: https://github.com/Wazeeexx/Recognition-of-Road-Sign-Using-CNN</a>
                                         </span>
                                     </p>
@@ -81,7 +81,7 @@
                                     These services are offered directly
                                     by the banks.<br>
                                     <span class="font-semibold"  style="font-family: 'Poppins';">
-                                        <a href="https://github.com/Wazeeexx/ATM-Management-System" target="_blank" rel="noopener noreferrer">
+                                        <a href="" target="_blank" rel="noopener noreferrer">
                                         Check out the project on GitHub: https://github.com/Wazeeexx/ATM-Management-System</a>
                                     </span>
                                 </p>
