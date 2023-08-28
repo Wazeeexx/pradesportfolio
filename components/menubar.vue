@@ -1,20 +1,17 @@
 <template>
     <div>
         <div class="container mx-auto flex justify-between items-center">
-          <NuxtLink to="/" class="block">
-              <img class="w-20 h-20 md:w-18 md:h-18" src="@/assets/img/logo.png" alt="Logo">
-          </NuxtLink>
-
-
-          <NuxtLink to="/" class="text-white pt-6 transition hover:text-blue-300 hover:underline block">Home</NuxtLink>
- 
-                <nav class="hidden md:flex space-x-10 font-medium font-poppins pt-4">
-                  <NuxtLink to="/#" a href="#" class="text-white pt-4 ml-4 transition hover:text-blue-300 hover:underline">Home</NuxtLink>
-                  <NuxtLink to="/aboutme" a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</NuxtLink>
-                  <NuxtLink to="/education" a href="#education" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">Education</NuxtLink>
-                  <NuxtLink to="/skills" a href="#skills" class="text-white hover:text-blue-300 pt-6 hover:underline">Skills</NuxtLink>
-                  <NuxtLink to="/projects" a href="#projects" class="text-w hite hover:text-blue-300 pt-6 hover:underline">Projects</NuxtLink>
-                </nav>    
+            <NuxtLink to="/" class="pt-6">
+            <p class="text-2xl font-semibold text-white" style="font-family: 'Poppins';">Dave Prades</p>
+            <!-- <img class="w-14 h-14 md:w-18 md:h-18" src="@/assets/img/logo.png" alt="Logo"> -->
+            </NuxtLink>
+              <nav class="hidden md:flex space-x-10 font-medium font-poppins pt-4">
+                <NuxtLink to="/#" a href="#" class="text-white pt-4 ml-4 transition hover:text-blue-300 hover:underline">Home</NuxtLink>
+                <NuxtLink to="/aboutme" a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</NuxtLink>
+                <NuxtLink to="/education" a href="#education" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">Education</NuxtLink>
+                <NuxtLink to="/skills" a href="#skills" class="text-white hover:text-blue-300 pt-6 hover:underline">Skills</NuxtLink>
+                <NuxtLink to="/projects" a href="#projects" class="text-w hite hover:text-blue-300 pt-6 hover:underline">Projects</NuxtLink>
+              </nav>    
         </div>
         <div class="dropdown">
             <button v-on:click="showNavigation = !showNavigation" class="p-2 mt-4 text-white fixed top-0 right-0 z-50 ml-6 md:hidden">
