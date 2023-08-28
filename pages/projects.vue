@@ -38,7 +38,7 @@
                                         It demonstrated my ability to work with complex algorithms in real-world scenarios.<br>
                                         <span class="font-semibold"  style="font-family: 'Poppins';">
                                         <a href="" target="_blank" rel="noopener noreferrer">
-                                        Check out the project on GitHub: https://github.com/Wazeeexx/Recognition-of-Road-Sign-Using-CNN</a>
+                                        Check out the project on GitHub:</a>
                                         </span>
                                     </p>
                                     <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Tech Stack Used</p>
@@ -82,7 +82,7 @@
                                     by the banks.<br>
                                     <span class="font-semibold"  style="font-family: 'Poppins';">
                                         <a href="" target="_blank" rel="noopener noreferrer">
-                                        Check out the project on GitHub: https://github.com/Wazeeexx/ATM-Management-System</a>
+                                        Check out the project on GitHub: </a>
                                     </span>
                                 </p>
                                 <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Tech Stack Used</p>
