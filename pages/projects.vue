@@ -8,10 +8,10 @@
                 <h2 class="text-5xl font-bold" style="font-family: 'Poppins';">My Projects</h2>
             </div>
             <div class="flex justify-center pt-6 gap-2">
-                <button class="border rounded-lg py-2 px-2 hover:bg-gray-500"  style="font-family: 'Poppins';">Web App</button>
+                <button class="border rounded-lg py-2 px-2 hover:bg-gray-500 font-semibold"  style="font-family: 'Poppins';">Web App</button>
 
                 <div>
-                    <button class="border rounded-lg py-2 px-2 hover:bg-gray-500"  style="font-family: 'Poppins';">Project</button>
+                    <button class="border rounded-lg py-2 px-2 hover:bg-gray-500 font-semibold"  style="font-family: 'Poppins';">Project</button>
                 </div>
             </div>
 
@@ -41,7 +41,7 @@
                                         Check out the project on GitHub:</a>
                                         </span>
                                     </p>
-                                    <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Tech Stack Used</p>
+                                    <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Tech Stack Used:</p>
                                     <div class="px-6 py-2" style="font-family: 'Poppins';">
                                         <ul>
                                             <li>Jupyter Notebook</li>
@@ -85,7 +85,7 @@
                                         Check out the project on GitHub: </a>
                                     </span>
                                 </p>
-                                <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Tech Stack Used</p>
+                                <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Tech Stack Used:</p>
                                     <div class="px-6 py-2" style="font-family: 'Poppins';">
                                         <ul>
                                             <li>Java</li>
@@ -165,8 +165,6 @@ export default {
       this.activeModal = null;
     }
   }
-
-
 };
 </script>
 
