@@ -1,6 +1,7 @@
 <template>
   <div> <menubar />
-      <div class="w-screen h-screen bg-gray-900">
+      <div class="w-screen h-screen bg-black
+      ">
 
          <navbar />
                   <!-- <nav class="hidden md:flex space-x-10 font-medium font-poppins">
@@ -20,13 +21,14 @@
               <div class="flex-cols cols-span-2 flex-col sm:flex-row items-center flex justify-center sm:justify-between mt-16">
                 <section id="home" class="mb-8 sm:mr-4">
                   <div class="mt-4">
-                    <h2 class="text-xl md:text-4xl text-white font-bold animated-heading mt-6 md:mt-12 mt-8" style="font-family: 'Poppins';">Welcome to My Portfolio!<span class="animate-waving-hand inline-block text-4xl">👋🏻</span> </h2>
+                    <h2 class="text-xl md:text-4xl font-bold animated-heading mt-6 md:mt-12 mt-8" style="font-family: 'Poppins'; color: #66fcf1;">Welcome to My Portfolio!<span class="animate-waving-hand inline-block text-4xl">👋🏻</span> </h2>
+
                     <div class="mt-4 md:mt-8">
                       <div>
-                        <h3 class="text-xl md:text-4xl text-white font-bold text-gray-800" style="font-family: 'Poppins';">Transforming Ideas Into <br class="md:hidden"> Functional Websites.</h3>
+                        <h3 class="text-xl md:text-4xl text-white font-semibold" style="font-family: 'Poppins';">Transforming Ideas Into <br class="md:hidden"> Functional Websites.</h3>
                       </div>
                     
-                        <h1 class="text-lg md:text-3xl font-bold text-blue-600 font-semibold font-poppins" ref="typewriter"><span class="cursor"></span></h1>
+                        <h1 class="text-lg md:text-3xl font-bold font-semibold font-poppins" style="font-family: 'Poppins';  color: #66fcf1; "  ref="typewriter" ><span class="cursor" ></span></h1>
                     
                       <nav class="hidden md:flex space-x-10 font-medium font-poppins mr-4">
                         <Nuxtlink to="/#" a href="#" class="text-white pt-6 transition hover:text-blue-300 underline underline-offset-8 ">Home</Nuxtlink>

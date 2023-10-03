@@ -1,17 +1,17 @@
 <template>
-    <div> 
+    <div class="bg-black"> 
       <navbar />
       <menubar />
 
       <section id="contact" class="py-12 w-screen h-screen ">
-        <h1 class="text-5xl font-bold text-center" style="font-family: 'Poppins';">Contact Me</h1>
+        <h1 class="text-5xl font-bold text-center" style="font-family: 'Poppins'; color: #66fcf1;">Contact Me</h1>
         <p class="flex justify-center text-sm" style="font-family: 'Poppins';">let's get connected:</p>
-        <h2 class="text-4xl font-bold text-center mt-6 text-gray-600 sm:flex sm:justify-center" style="font-family: 'Poppins';">
+        <h2 class="text-4xl font-bold text-center mt-6 text-white sm:flex sm:justify-center" style="font-family: 'Poppins';">
         Do you have any project ideas?<br> Feel free to get in touch!</h2>
         <div class="flex justify-center items-center">
-        <!-- <img class="mt-12 mr-18 h-44 w-48 rounded-full shadow-md" src="@/assets/img/dave.png" alt=""> -->
+
         <div class="contact-info-container grid grid-cols-3 gap-6 mt-6">
-          <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start hover:bg-gray-900">
+          <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-black  border shadow-mdsm:py-4 items-center sm:items-start hover:bg-gray-900">
             <a class="p-4 sm:w-14 sm:h-14 rounded-full bg-gray-700 flex items-center justify-center mb-4 sm:mb-0 sm:mr-4 ml-4 mt-4">
               <div class="relative flex justify-right">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="">
@@ -26,7 +26,7 @@
 
           </div>
 
-            <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start hover:bg-gray-900">
+            <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-black border shadow-md sm:py-4 items-center sm:items-start hover:bg-gray-900">
               <a class="p-4 sm:w-14 sm:h-14 rounded-full bg-gray-700 flex items-center justify-center mb-4 sm:mb-0 sm:mr-4 ml-4 mt-4">
                 <div class="relative flex justify-right">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="">
@@ -41,7 +41,7 @@
 
             </div>
 
-            <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-gray-800 sm:py-4 items-center sm:items-start hover:bg-gray-900">
+            <div class="flex flex-col sm:flex-row w-full sm:w-80 bg-black border shadow-md sm:py-4 items-center sm:items-start hover:bg-gray-900">
               <a class="p-4 sm:w-14 sm:h-14 rounded-full bg-gray-700 flex items-center justify-center mb-4 sm:mb-0 sm:mr-4 ml-4 mt-4">
                 <div class="relative flex justify-right">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="">

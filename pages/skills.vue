@@ -1,11 +1,11 @@
 <template>
-    <div> 
+    <div class="bg-black"> 
         <navbar />
         <menubar />
         <section id="skills" class="grid grid-cols py-12">
-            <h2 class="text-5xl font-bold font-poppins text-center mb-4" style="font-family: 'Poppins';">Skills</h2>
+            <h2 class="text-5xl font-bold font-poppins text-center mb-4" style="font-family: 'Poppins'; color: #66fcf1;">Skills</h2>
             <div class="flex justify-center">
-            <p class="text-3xl mb-8 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center" style="font-family: 'Poppins';">
+            <p class="text-3xl mb-8 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-white text-center" style="font-family: 'Poppins';">
                 Expertise To Help Bring Your Ideas To Life
             </p>
             </div>
@@ -110,7 +110,7 @@
                 </div>  
             </div>
 
-            <div class="container mx-auto mt-12 p-4 text-center md:text-left md:flex md:items-center md:justify-center">
+            <div class="container mx-auto mt-12 p-4 text-center md:text-left md:flex md:items-center md:justify-center text-white">
                 <p class="text-3xl font-semibold md:ml-12 text-gray-600" style="font-family: 'Poppins';">I am currently mastering
                 <br>these technologies.</p>
                 <span class="ml-0 md:ml-4 border-md"></span>

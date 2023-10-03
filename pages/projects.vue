@@ -1,11 +1,11 @@
 <template>
-    <div> 
+    <div class="bg-black"> 
         <navbar />
         <menubar />
 
         <section id="projects" class="w-screen h-screen py-12">
             <div class="flex justify-center">
-                <h2 class="text-5xl font-bold" style="font-family: 'Poppins';">My Projects</h2>
+                <h2 class="text-5xl font-bold" style="font-family: 'Poppins'; color: #66fcf1;">My Projects</h2>
             </div>
             <!-- <div class="flex justify-center pt-6 gap-2">
                 <button class="border rounded-lg py-2 px-2 hover:bg-gray-500 font-semibold"  style="font-family: 'Poppins';">Web App</button>
