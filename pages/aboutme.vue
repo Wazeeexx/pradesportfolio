@@ -6,7 +6,7 @@
     <section id="about" class="py-12">
       <h2 class="text-5xl font-bold font-poppins text-center mb-8" style="font-family: 'Poppins'; color: #66fcf1;">About Me</h2>
       <div class="flex justify-center">
-        <p id="typewriter-text" class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-gray-600 text-center font-mono" style="font-family: 'Poppins';"></p>
+        <p id="typewriter-text" class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-white text-center font-mono" style="font-family: 'Poppins';"></p>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2">

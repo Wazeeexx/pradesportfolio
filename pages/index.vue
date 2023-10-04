@@ -1,9 +1,7 @@
 <template>
-  <div> <menubar />
-      <div class="w-screen h-screen bg-black
-      ">
-
-         <navbar />
+  <div class="bg-black">
+     <menubar />
+      <div class="w-screen h-screen">
                   <!-- <nav class="hidden md:flex space-x-10 font-medium font-poppins">
                     <Nuxtlink to="/#" a href="#" class="text-white pt-6 ml-4 transition hover:text-blue-300 hover:underline">Home</Nuxtlink>
                     <NuxtLink to="/aboutme" a href="#about" class="text-white hover:text-blue-300 pt-6 ml-4 hover:underline">About</NuxtLink>
@@ -31,12 +29,12 @@
                         <h1 class="text-lg md:text-3xl font-bold font-semibold font-poppins" style="font-family: 'Poppins';  color: #66fcf1; "  ref="typewriter" ><span class="cursor" ></span></h1>
                     
                       <nav class="hidden md:flex space-x-10 font-medium font-poppins mr-4">
-                        <Nuxtlink to="/#" a href="#" class="text-white pt-6 transition hover:text-blue-300 underline underline-offset-8 ">Home</Nuxtlink>
-                        <NuxtLink to="/aboutme" a href="#about" class="text-white pt-6 ml-4 hover:text-blue-300 underline underline-offset-8 ">About</NuxtLink>
-                        <NuxtLink to="/education" a href="#education" class="text-white hover:text-blue-300 pt-6 ml-4  underline underline-offset-8 ">Education</NuxtLink>
-                        <NuxtLink to="/skills" a href="#skills" class="text-white hover:text-blue-300 pt-6  underline underline-offset-8 ">Skills</NuxtLink>
-                        <NuxtLink to="/projects" a href="#projects" class="text-white hover:text-blue-300 pt-6  underline underline-offset-8 ">Projects</NuxtLink>
-                        <NuxtLink to="/contact" a href="#contact" class="text-white hover:text-blue-300 pt-6  underline underline-offset-8 ">Contact</NuxtLink>
+                        <NuxtLink to="/#" href="#" class="text-white pt-6 transition underline underline-offset-8 custom-link">Home</NuxtLink>
+                        <NuxtLink to="/aboutme" a href="#about" class="text-white pt-6 ml-4 underline underline-offset-8 custom-link">About</NuxtLink>
+                        <NuxtLink to="/education" a href="#education" class="text-white pt-6 ml-4 underline underline-offset-8 custom-link">Education</NuxtLink>
+                        <NuxtLink to="/skills" a href="#skills" class="text-white pt-6 underline underline-offset-8 custom-link">Skills</NuxtLink>
+                        <NuxtLink to="/projects" a href="#projects" class="text-white pt-6 underline underline-offset-8 custom-link">Projects</NuxtLink>
+                        <NuxtLink to="/contact" a href="#contact" class="text-white pt-6 underline underline-offset-8 custom-link">Contact</NuxtLink>
                       </nav>    
                     </div>
                   </div>
@@ -379,5 +377,9 @@ export default{
 .animate-waving-hand {
   animation: waving 1s infinite;
 }
+
+.custom-link:hover {
+    color: #66fcf1;
+  }
     </style>
     

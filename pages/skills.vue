@@ -111,7 +111,7 @@
             </div>
 
             <div class="container mx-auto mt-12 p-4 text-center md:text-left md:flex md:items-center md:justify-center text-white">
-                <p class="text-3xl font-semibold md:ml-12 text-gray-600" style="font-family: 'Poppins';">I am currently mastering
+                <p class="text-3xl font-semibold md:ml-12 text-gray-600" style="font-family: 'Poppins'; color: #66fcf1;">I am currently mastering
                 <br>these technologies.</p>
                 <span class="ml-0 md:ml-4 border-md"></span>
                 <h1 class="mt-6 md:mt-0 md:ml-10" style="font-family: 'Poppins';">The two most popular stacks in the field of

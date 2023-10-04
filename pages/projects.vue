@@ -30,19 +30,19 @@
 
                         <div v-if="showTemplate" class="modal-overlay">
                             <div class="modal">
-                                <div class="modal-content bg-gray-300 border rounded-lg">
-                                    <p class="text-justify px-6 py-2" style="font-family: 'Poppins';">
+                                <div class="modal-content bg-black border rounded-lg">
+                                    <p class="text-justify px-6 py-2 text-white" style="font-family: 'Poppins';">
                                         I developed a road sign recognition system using Convolutional Neural Networks (CNN). 
                                         Leveraging deep learning algorithms, the system accurately detects and classifies road signs from images. 
                                         This project showcased my expertise in computer vision and machine learning, achieving high recognition. 
                                         It demonstrated my ability to work with complex algorithms in real-world scenarios.<br>
-                                        <span class="font-semibold"  style="font-family: 'Poppins';">
+                                        <span class="font-semibold text-white"  style="font-family: 'Poppins';">
                                         <a href="" target="_blank" rel="noopener noreferrer">
                                         Check out the project on GitHub:</a>
                                         </span>
                                     </p>
-                                    <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Tech Stack Used:</p>
-                                    <div class="px-6 py-2" style="font-family: 'Poppins';">
+                                    <p class="font-semibold px-6 py-2 text-white" style="font-family: 'Poppins';">Tech Stack Used:</p>
+                                    <div class="px-6 py-2 text-white" style="font-family: 'Poppins';">
                                         <ul>
                                             <li>Jupyter Notebook</li>
                                             <li>Python</li>
@@ -70,8 +70,8 @@
 
                     <div v-if="activeModal" class="modal-overlay">
                         <div class="modal">
-                            <div class="modal-content bg-gray-300 border rounded-lg">
-                                <p class="text-justify px-6 py-2" style="font-family: 'Poppins';">
+                            <div class="modal-content border rounded-lg bg-black">
+                                <p class="text-justify px-6 py-2 text-white" style="font-family: 'Poppins';">
                                     The ATM project is an electronic banking outlet
                                     that enables customers to perform basic transactions
                                     without the assistance of a branch representative
@@ -81,13 +81,13 @@
                                     cash, and transferring between accounts.
                                     These services are offered directly
                                     by the banks.<br>
-                                    <span class="font-semibold"  style="font-family: 'Poppins';">
+                                    <span class="font-semibold text-white"  style="font-family: 'Poppins';">
                                         <a href="" target="_blank" rel="noopener noreferrer">
                                         Check out the project on GitHub: </a>
                                     </span>
                                 </p>
-                                <p class="font-semibold px-6 py-2" style="font-family: 'Poppins';">Tech Stack Used:</p>
-                                    <div class="px-6 py-2" style="font-family: 'Poppins';">
+                                <p class="font-semibold px-6 py-2 text-white" style="font-family: 'Poppins';">Tech Stack Used:</p>
+                                    <div class="px-6 py-2 text-white" style="font-family: 'Poppins';">
                                         <ul>
                                             <li>Java</li>
                                         </ul>
