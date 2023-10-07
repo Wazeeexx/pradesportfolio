@@ -2,7 +2,7 @@
     <div class="bg-black"> 
         <navbar />
         <menubar />
-        <section id="skills" class="grid grid-cols py-12">
+        <section id="skills" class="grid grid-cols py-24">
             <h2 class="text-5xl font-bold font-poppins text-center mb-4" style="font-family: 'Poppins'; color: #66fcf1;">Skills</h2>
             <div class="flex justify-center">
             <p class="text-3xl mb-8 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-white text-center" style="font-family: 'Poppins';">

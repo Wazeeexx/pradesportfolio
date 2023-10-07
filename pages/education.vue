@@ -3,7 +3,7 @@
      <navbar />
      <menubar /> 
  
-     <section id="education" class="h-full col cols-span-2 py-12"  style="margin-left: 30px; margin-right: 30px;">
+     <section id="education" class="h-full col cols-span-2 py-24"  style="margin-left: 30px; margin-right: 30px;">
        <h2 class="text-5xl font-bold font-poppins text-center" style="font-family: 'Poppins'; color: #66fcf1;">Education</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 flex jutify-center">
             <!-- Education Item 1 -->

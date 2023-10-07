@@ -3,7 +3,7 @@
         <navbar />
         <menubar />
 
-        <section id="projects" class="h-screen py-12"  style="margin-left: 30px; margin-right: 30px;">
+        <section id="projects" class="h-screen py-24"  style="margin-left: 30px; margin-right: 30px;">
             <div class="flex justify-center">
                 <h2 class="text-5xl font-bold" style="font-family: 'Poppins'; color: #66fcf1;">My Projects</h2>
             </div>
