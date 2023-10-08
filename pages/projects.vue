@@ -5,7 +5,7 @@
 
         <section id="projects" class="h-screen py-24"  style="margin-left: 30px; margin-right: 30px;">
             <div class="flex justify-center">
-                <h2 class="text-5xl font-bold" style="font-family: 'Poppins'; color: #66fcf1;">My Projects</h2>
+                <h2 class="text-5xl font-bold font-poppins" style="color: #66fcf1;">My Projects</h2>
             </div>
             <!-- <div class="flex justify-center pt-6 gap-2">
                 <button class="border rounded-lg py-2 px-2 hover:bg-gray-500 font-semibold"  style="font-family: 'Poppins';">Web App</button>
@@ -22,7 +22,7 @@
                             <div class="overlay">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="red" d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8z"/></svg>
                             </div>
-                            <p class="font-bold text-1xl pb-2 hover:underline text-white" style="font-family: 'Poppins';">RECOGNIGTION OF ROAD SIGN</p>
+                            <p class="font-bold text-1xl pb-2 hover:underline text-white font-poppins">RECOGNIGTION OF ROAD SIGN</p>
                             <div class="flex justify-center sm:justify-center border border-gray-400 rounded-lg">
                                 <img id="" class="w-96 inline-block p-2 sm:mx-auto" src="@/assets/img/prototype.png" alt="">
                             </div>
@@ -31,18 +31,18 @@
                         <div v-if="showTemplate" class="modal-overlay">
                             <div class="modal">
                                 <div class="modal-content bg-black border rounded-lg">
-                                    <p class="text-justify px-6 py-2 text-white" style="font-family: 'Poppins';">
+                                    <p class="text-justify px-6 py-2 text-white font-poppins">
                                         I developed a road sign recognition system using Convolutional Neural Networks (CNN). 
                                         Leveraging deep learning algorithms, the system accurately detects and classifies road signs from images. 
                                         This project showcased my expertise in computer vision and machine learning, achieving high recognition. 
                                         It demonstrated my ability to work with complex algorithms in real-world scenarios.<br>
-                                        <span class="font-semibold text-white"  style="font-family: 'Poppins';">
+                                        <span class="font-semibold text-white font-poppins">
                                         <a href="" target="_blank" rel="noopener noreferrer">
                                         Check out the project on GitHub:</a>
                                         </span>
                                     </p>
-                                    <p class="font-semibold px-6 py-2 text-white" style="font-family: 'Poppins';">Tech Stack Used:</p>
-                                    <div class="px-6 py-2 text-white" style="font-family: 'Poppins';">
+                                    <p class="font-semibold px-6 py-2 text-white font-poppins">Tech Stack Used:</p>
+                                    <div class="px-6 py-2 text-white font-poppins">
                                         <ul>
                                             <li>Jupyter Notebook</li>
                                             <li>Python</li>
@@ -51,7 +51,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <button class="modal-close btn-18" style="font-family: 'Poppins';" @click="showTemplate = false">Close</button>
+                                <button class="modal-close btn-18 font-poppins" style="" @click="showTemplate = false">Close</button>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                         <div class="overlay">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="red" d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8z"/></svg>
                         </div>
-                        <p class="font-bold text-1xl pb-2 text-white" style="font-family: 'Poppins';">ATM MANAGEMENT SYSTEM</p>
+                        <p class="font-bold text-1xl pb-2 text-white font-poppins">ATM MANAGEMENT SYSTEM</p>
                         <div class="flex justify-center sm:justify-center border border-gray-400 rounded-lg">
                             <img class="w-96 inline-block p-2 sm:mx-auto scrolling-image" src="@/assets/img/atm1.png" alt="">
                         </div>
@@ -71,7 +71,7 @@
                     <div v-if="activeModal" class="modal-overlay">
                         <div class="modal">
                             <div class="modal-content border rounded-lg bg-black">
-                                <p class="text-justify px-6 py-2 text-white" style="font-family: 'Poppins';">
+                                <p class="text-justify px-6 py-2 text-white font-poppins">
                                     The ATM project is an electronic banking outlet
                                     that enables customers to perform basic transactions
                                     without the assistance of a branch representative
@@ -81,19 +81,19 @@
                                     cash, and transferring between accounts.
                                     These services are offered directly
                                     by the banks.<br>
-                                    <span class="font-semibold text-white"  style="font-family: 'Poppins';">
+                                    <span class="font-semibold text-white font-poppins">
                                         <a href="" target="_blank" rel="noopener noreferrer">
                                         Check out the project on GitHub: </a>
                                     </span>
                                 </p>
-                                <p class="font-semibold px-6 py-2 text-white" style="font-family: 'Poppins';">Tech Stack Used:</p>
-                                    <div class="px-6 py-2 text-white" style="font-family: 'Poppins';">
+                                <p class="font-semibold px-6 py-2 text-white font-poppins">Tech Stack Used:</p>
+                                    <div class="px-6 py-2 text-white font-poppins">
                                         <ul>
                                             <li>Java</li>
                                         </ul>
                                     </div>
                             </div>
-                            <button class="modal-close hover:bg-gray-800 btn-18" @click="closeModal" style="font-family: 'Poppins';">Close</button>
+                            <button class="modal-close hover:bg-gray-800 btn-18 font-poppins" @click="closeModal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                                 <!-- SVG path here -->
                             </svg>
                         </div>
-                        <p class="font-bold text-1xl pb-2 text-white" style="font-family: 'Poppins';">DOCUMENT MAKER</p>
+                        <p class="font-bold text-1xl pb-2 text-white font-poppins">DOCUMENT MAKER</p>
                         <div class="flex justify-center sm:justify-center border border-gray-400 rounded-lg">
                             <img id="modalImage" class="w-80 h-44 inline-block p-2 sm:mx-auto" src="@/assets/img/document.png" alt="">
                         </div>

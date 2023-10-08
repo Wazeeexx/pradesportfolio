@@ -11,15 +11,15 @@
               <div class="flex-cols cols-span-2 flex-col sm:flex-row items-center flex justify-center sm:justify-between mt-36">
                 <section id="home" class="mb-8 sm:mr-4">
                   <div class="mt-4">
-                    <h2 class="text-xl md:text-4xl font-bold animated-heading mt-6 md:mt-12 mt-8" style="font-family: 'Poppins'; color: #66fcf1;">Welcome to My Portfolio!<span class="animate-waving-hand inline-block text-4xl">👋🏻</span> </h2>
+                    <h2 class="text-xl md:text-4xl font-bold animated-heading mt-6 md:mt-12 mt-8 font-poppins" style="color: #66fcf1;">Welcome to My Portfolio!<span class="animate-waving-hand inline-block text-4xl">👋🏻</span> </h2>
 
                     <div class="mt-4 md:mt-8">
                       <div>
-                        <h3 class="text-xl md:text-4xl text-white font-semibold" style="font-family: 'Poppins';">Transforming Ideas Into <br class="md:hidden"> Functional Websites.</h3>
+                        <h3 class="text-xl md:text-4xl text-white font-semibold font-poppins">Transforming Ideas Into <br class="md:hidden"> Functional Websites.</h3>
                       </div>
                     
-                        <h1 class="text-lg md:text-3xl font-bold font-semibold font-poppins" style="font-family: 'Poppins';  color: #66fcf1; "  ref="typewriter" ><span class="cursor" ></span></h1>
-                    
+                        <h1 class="text-lg md:text-3xl font-bold font-semibold font-poppins" style="color: #66fcf1; "  ref="typewriter" ><span class="cursor" ></span></h1>
+                      
                       <nav class="hidden md:flex space-x-10 font-medium font-poppins mr-4">
                         <NuxtLink to="/#" href="#" class="text-white pt-6 transition underline underline-offset-8 custom-link">Home</NuxtLink>
                         <NuxtLink to="/aboutme" a href="#about" class="text-white pt-6 ml-4 underline underline-offset-8 custom-link">About</NuxtLink>
@@ -43,7 +43,7 @@
 export default{
   //Type writer Effect in Front End Developer
   mounted() {
-    const typewriterText = "Front-End Developer ";
+    const typewriterText = "Front-End Web Developer ";
     const typewriterDelay = 150; // Adjust the typing speed here
     const loopDelay = 200; // Delay before starting the typewriter loop
 
@@ -278,7 +278,7 @@ export default{
         opacity: 1;
         transform: translateY(0);
       }
-    }
+    }   
     
     @media (max-width: 640px) {
         .flex {

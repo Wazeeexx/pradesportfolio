@@ -4,9 +4,9 @@
     <menubar /> 
 
     <section id="about" class="py-24" style="margin-left: 40px; margin-right: 40px;">
-      <h2 class="text-5xl font-bold font-poppins text-center mb-8" style="font-family: 'Poppins'; color: #66fcf1;">About Me</h2>
+      <h2 class="text-5xl font-bold font-poppins text-center mb-8 font-poppins" style="color: #66fcf1;">About Me</h2>
         <div class="flex justify-center">
-          <p id="typewriter-text" class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-white text-center font-mono" style="font-family: 'Poppins';"></p>
+          <p id="typewriter-text" class="text-3xl mb-4 p-2 font-semibold sm:text-center md:text-3xl lg:text-3xl xl:text-3xl text-white text-center font-mono font-poppins" ></p>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2">
@@ -15,7 +15,7 @@
           </div>
           
           <div class="flex items-center mx-auto">
-            <div class="text-base sm:text-base lg:text-base text-justify px-6 py-6 sm:mx-auto text-white mx-0 sm:mx-auto" style="font-family: 'Poppins';">
+            <div class="font-poppins text-base sm:text-base lg:text-base text-justify px-6 py-6 sm:mx-auto text-white mx-0 sm:mx-auto">
               I'm a passionate front-end developer specializing in creating engaging user experiences. With expertise in HTML, CSS, and JavaScript,
               I transform design concepts into functional websites and applications. I prioritize clean and responsive code, using modern frameworks like Vue.js and Tailwind CSS.
               I am excited about the prospect of collaborating with you on your next project. By combining my technical proficiency, creativity, and dedication to user-centric design,

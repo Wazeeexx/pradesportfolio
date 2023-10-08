@@ -70,6 +70,9 @@
   content: url('../assets/img/logo.png');
 }
 
+.web-png{
+  content: url('../assets/img/web.png');
+}
 
 @keyframes fade-right {
   0% {
