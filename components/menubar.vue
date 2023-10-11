@@ -69,10 +69,10 @@ export default {
 .dropdown-panel {
   position: fixed;
   top: 0;
-  right: -200px; /* Initially hidden outside the viewport */
-  width: 200px; /* Width of the panel */
-  height: 100%;
-  background-color: #000;
+  right: -500px; /* Initially hidden outside the viewport */
+  width: 400px; /* Width of the panel */
+  height: 30%;
+  background-color: #000000;
   transition: right 0.3s ease-in-out;
 }
 

@@ -87,41 +87,40 @@
                                     </span>
                                 </p>
                                 <p class="font-semibold px-6 py-2 text-white font-poppins">Tech Stack Used:</p>
-                                    <div class="px-6 py-2 text-white font-poppins">
-                                        <ul>
-                                            <li>Java</li>
-                                        </ul>
-                                    </div>
+                                  <div class="px-6 py-2 text-white font-poppins">
+                                      <ul>
+                                          <li>Java</li>
+                                      </ul>
+                                  </div>
                             </div>
                             <button class="modal-close hover:bg-gray-800 btn-18 font-poppins" @click="closeModal">Close</button>
                         </div>
                     </div>
                 </div>
               </div>
-
-              <div class="bg-black py-4 px-4 rounded-lg">
-                <div class="col-span-3 sm:col-span-1 flex flex-col sm:flex-row sm:justify-start">
-                    <button class="image-container" id="openModalBtn">
-                        <div class="overlay">
-                            <svg class="bg-gray-600" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
-                                <!-- SVG path here -->
-                            </svg>
-                        </div>
-                        <p class="font-bold text-1xl pb-2 text-white font-poppins">DOCUMENT MAKER</p>
-                        <div class="flex justify-center sm:justify-center border border-gray-400 rounded-lg">
-                            <img id="modalImage" class="w-80 h-44 inline-block p-2 sm:mx-auto" src="@/assets/img/document.png" alt="">
-                        </div>
-                    </button>
-                </div>
-
-                <!-- Modal -->
-                <div class="modal hidden fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50" id="myModal">
-                    <div class="modal-content bg-white p-6 rounded shadow-md">
-                        <p>This is a paragraph template that appears in the modal.</p>
-                        <button class="mt-4 px-4 py-2 bg-gray-500 text-white rounded" id="closeModalBtn">Close</button>
+            </div>
+          </div>
+          <div class="bg-black px-8 py-6 rounded-lg flex justify-center">
+            <div class="col-span-3 sm:col-span-1 flex flex-col sm:flex-row sm:justify-start">
+                <button class="image-container" id="openModalBtn">
+                    <div class="overlay">
+                        <svg class="bg-gray-600" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                            <!-- SVG path here -->
+                        </svg>
                     </div>
+                    <p class="font-bold text-1xl pb-2 text-white font-poppins">DOCUMENT MAKER</p>
+                    <div class="flex justify-center sm:justify-center border border-gray-400 rounded-lg px-2">
+                        <img id="modalImage" class="w-86 h-44 inline-block p-2 sm:mx-auto" src="@/assets/img/document.png" alt="">
+                    </div>
+                </button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal hidden fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50" id="myModal">
+                <div class="modal-content bg-white p-6 rounded shadow-md">
+                    <p>This is a paragraph template that appears in the modal.</p>
+                    <button class="mt-4 px-4 py-2 bg-gray-500 text-white rounded" id="closeModalBtn">Close</button>
                 </div>
-              </div>
             </div>
           </div>
         </section>

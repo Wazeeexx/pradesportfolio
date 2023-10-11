@@ -3,9 +3,9 @@
      <navbar />
      <menubar /> 
  
-     <section id="education" class="h-full col cols-span-2 py-24"  style="margin-left: 60px; margin-right: 60px;">
+     <section id="education" class="h-full col cols-span-2 py-24"  style="margin-left: 30px; margin-right: 30px;">
        <h2 class="text-5xl font-bold font-poppins text-center font-poppins" style="color: #66fcf1;">Education</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 flex jutify-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 flex jutify-center md:px-24">
             <!-- Education Item 1 -->
             <div class="text-white p-2 md:p-6 ml-8 mr-8">
                 <div class="border rounded-lg py-8 bg-black p-4 transition duration-300 hover:bg-gray-500">
